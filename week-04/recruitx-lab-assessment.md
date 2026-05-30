@@ -13,7 +13,7 @@ This report demonstrates end-to-end vulnerability assessment methodology on a de
 
 # EXECUTIVE VULNERABILITY ASSESSMENT & ENTERPRISE RISK REPORT
 
-## [Client Name] Web Application | [Assessment Date]
+## Recruitx Web Application 
 
 **Prepared For:** Chief Risk Officer, Board of Directors, CISO
 
