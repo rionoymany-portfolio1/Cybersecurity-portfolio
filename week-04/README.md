@@ -79,8 +79,8 @@ Professional attackers spend 70% of time on reconnaissance:
 
 ### Room 1: Guided Pentest: Web
 **URL:** https://tryhackme.com/room/guidedpentestweb
-**Time:** 1 hours
-**Difficulty:** Beginner to Intermediate
+**Time:** 1 hour
+**Difficulty:** Beginner
 **Prerequisites:** Basic Linux, web familiarity
 
 **What you'll do:**
@@ -92,9 +92,9 @@ Professional attackers spend 70% of time on reconnaissance:
 
 ### Room 2: Passive Reconnaissance
 **URL:** https://tryhackme.com/room/passiverecon
-**Time:** 1 hours
+**Time:** 1 hour
 **Difficulty:** Beginner
-**Prerequisites:** Basic networking (Week 3)
+**Prerequisites:** Basic networking 
 
 **What you'll learn:**
 - Whois command and data interpretation
