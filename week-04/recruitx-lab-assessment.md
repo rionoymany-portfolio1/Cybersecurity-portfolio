@@ -459,7 +459,7 @@ T+2:30 - Attacker begins data extraction
 
 **Prepared by:** Offensive Security Assessment Unit  
 **Assessment Type:** Web Application Vulnerability Assessment  
-**Date:** [Assessment Date]  
+**Date:** May 2026  
 
 ---
 
