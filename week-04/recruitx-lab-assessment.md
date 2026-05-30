@@ -4,7 +4,7 @@
 **Assessment Date:** May 2026  
 **Scope:** Guided Pentest: Web Room (https://tryhackme.com/room/guidedpentestweb)  
 **Platform:** TryHackMe Lab Environment  
-
+**The numbers are hypothetical**
 ---
 
 This report demonstrates end-to-end vulnerability assessment methodology on a deliberately vulnerable web application. Findings and remediation recommendations reflect real-world security practices applied to a controlled lab environment.
