@@ -54,7 +54,7 @@ Learn about essential tools for passive reconnaissance without active probing.
 Real attacks don't exploit single vulnerabilities in isolation. They chain them:
 
 ```
-Recon (Week 3) 
+Recon  
   ↓
 Find target weakness (IDOR, password reset)
   ↓
@@ -79,7 +79,7 @@ Professional attackers spend 70% of time on reconnaissance:
 
 ### Room 1: Guided Pentest: Web
 **URL:** https://tryhackme.com/room/guidedpentestweb
-**Time:** 2-3 hours
+**Time:** 1 hours
 **Difficulty:** Beginner to Intermediate
 **Prerequisites:** Basic Linux, web familiarity
 
@@ -92,7 +92,7 @@ Professional attackers spend 70% of time on reconnaissance:
 
 ### Room 2: Passive Reconnaissance
 **URL:** https://tryhackme.com/room/passiverecon
-**Time:** 1-2 hours
+**Time:** 1 hours
 **Difficulty:** Beginner
 **Prerequisites:** Basic networking (Week 3)
 
