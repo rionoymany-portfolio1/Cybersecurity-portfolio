@@ -89,19 +89,6 @@ Professional attackers spend 70% of time on reconnaissance. This week shifts fro
 
 ---
 
-##  Weekly Schedule
-
-| Day | Focus | Deliverable |
-|-----|-------|------------|
-| **Mon-Tue** | Active Recon Tools Room | Complete tasks 1-7 (ping, traceroute, telnet, netcat) |
-| **Tue-Wed** | Nmap Fundamentals | Complete tasks 1-9 (introduction through ICMP) |
-| **Wed-Thu** | Nmap Advanced | Complete tasks 10-13 (NSE scripts, firewall evasion) |
-| **Thu** | Python Development | Write simple port scanner |
-| **Fri** | Nmap Practical | Complete task 14, run actual scans, document findings |
-| **Sat** | Integration & Analysis | Combine tools, write 6-part write-up |
-| **Sun** | Finalize & Commit | Polish documentation, commit week-05 to GitHub |
-
----
 
 ##  Attack Chain This Week
 
@@ -112,7 +99,7 @@ ACTIVE RECONNAISSANCE FLOW:
          ↓
 PING (Connectivity check)
          ↓
-[Blocked by Firewall? Yes→Infer OS via TTL, Continue]
+Learning Objectives
          ↓
 TRACEROUTE (Path mapping)
          ↓
