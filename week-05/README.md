@@ -42,10 +42,10 @@ In-depth exploration of the industry-standard network scanning tool.
 Build your own multi-threaded TCP port scanner in Python.
 
 **Features:**
-- Multi-threading (concurrent port scanning)
-- Timeout handling (prevent hanging)
+- Thread-Pool Queue Architecture (Concurrent Scanning Execution)
+- Network Latency Handling via Non-blocking Socket Timeouts
 - Service identification
-- Clean output formatting
+- Graceful Shutdown via KeyboardInterrupt (Ctrl+C) Handling & Safe Resource Cleanup
 
 ---
 
@@ -99,7 +99,7 @@ ACTIVE RECONNAISSANCE FLOW:
          ↓
 PING (Connectivity check)
          ↓
-Learning Objectives
+[Blocked by Firewall? Yes→Infer OS via TTL, Continue]
          ↓
 TRACEROUTE (Path mapping)
          ↓
