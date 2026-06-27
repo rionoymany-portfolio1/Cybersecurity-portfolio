@@ -37,14 +37,14 @@ Extended the Week 5 port scanner with active service banner retrieval.
 ## Learning Objectives
 
 **By end of Week 6, you will:**
-- ✅ Understand vulnerability classification frameworks
-- ✅ Distinguish CVSS static scoring from VPR dynamic prioritization
-- ✅ Navigate NVD, CVE databases to find applicable vulnerabilities
-- ✅ Apply a discovered CVE profile to a real target
-- ✅ Understand SQL injection root cause at the query level
-- ✅ Execute a WHERE clause bypass using a tautology payload
-- ✅ Write a production-ready banner grabbing scanner
-- ✅ Connect service version discovery to CVE vulnerability research
+-  Understand vulnerability classification frameworks
+-  Distinguish CVSS static scoring from VPR dynamic prioritization
+-  Navigate NVD, CVE databases to find applicable vulnerabilities
+-  Apply a discovered CVE profile to a real target
+-  Understand SQL injection root cause at the query level
+-  Execute a WHERE clause bypass using a tautology payload
+-  Write a production-ready banner grabbing scanner
+-  Connect service version discovery to CVE vulnerability research
 
 ---
 
@@ -59,7 +59,7 @@ Banner grabbed: Apache Tomcat/9.0.41 (Java)
          v
 [Week 6 Step 1: Vulnerability Research]
 Query NVD/CVE databases with exact version strings
-Find: Apache httpd 2.4.41
+Find: CVE-2021-44228 (Log4Shell) - CVSS 10.0
 Find: Known SQL injection patterns
          |
          v
@@ -78,20 +78,15 @@ Retrieve unreleased product catalog
 Record findings, business impact, remediation
 Deliver professional assessment report
 ```
-
----
-
 ## Connection to Previous Weeks
-
+ 
 **Week 5 → Week 6:**
-- Port scanner grabbed `Server: Apache httpd 2.4.41`
+- Port scanner grabbed `Server: Apache Tomcat/9.0.41 (Java)`
 - This week: Search that version string in NVD → find CVEs → exploit
-
 **This is the core Red Team loop:**
 ```
 Scan → Fingerprint → Research → Exploit → Document → Repeat
 ```
-
 ---
 
 ## Files This Week
@@ -109,4 +104,4 @@ week-06/
 
 ---
 
-**Status:** Week 6 | Vulnerability Research + SQL Injection | In Progress
+**Status:** Week 6 | Vulnerability Research + SQL Injection | Completed
