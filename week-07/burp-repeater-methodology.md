@@ -124,7 +124,7 @@ Compare: response 1 vs response 5 to identify behavioral differences
 
 Located above the request/response panels:
 
-```markdown
+```
 | Button | Function | When to Use |
 | :--- | :--- | :--- |
 | **Pretty** | Format HTML/JSON for readability | Analyzing structured response bodies |
