@@ -106,9 +106,9 @@ Compare: response 1 vs response 5 to identify behavioral differences
 ┌─────────────────────────────────────────────────────────────┐
 │  History: 1  2  3  4  5  [current]                          │
 ├─────────────────────────┬───────────────────────────────────┤
-│  REQUEST (editable)     │  RESPONSE (read-only)            │
+│  REQUEST (editable)     │  RESPONSE (read-only)             │
 │                         │                                   │
-│  GET /filter?id=1 HTTP  │  HTTP/2 200 OK                   │
+│  GET /filter?id=1 HTTP  │  HTTP/2 200 OK                    │
 │  Host: target.com       │  Content-Type: text/html          │
 │  Cookie: session=abc    │                                   │
 │  ...                    │  <html>                           │
