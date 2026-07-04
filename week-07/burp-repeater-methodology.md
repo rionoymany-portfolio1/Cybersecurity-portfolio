@@ -100,15 +100,13 @@ Compare: response 1 vs response 5 to identify behavioral differences
 
 ## Anatomy of the Repeater Interface
 
-### Anatomy of the Repeater Interface
-
-```text
+```
 ┌─────────────────────────────────────────────────────────────┐
 │  History: 1  2  3  4  5  [current]                          │
 ├─────────────────────────┬───────────────────────────────────┤
-│  REQUEST (editable)     │  RESPONSE (read-only)             │
+│  REQUEST (editable)     │  RESPONSE (read-only)            │
 │                         │                                   │
-│  GET /filter?id=1 HTTP  │  HTTP/2 200 OK                    │
+│  GET /filter?id=1 HTTP  │  HTTP/2 200 OK                   │
 │  Host: target.com       │  Content-Type: text/html          │
 │  Cookie: session=abc    │                                   │
 │  ...                    │  <html>                           │
@@ -124,9 +122,8 @@ Compare: response 1 vs response 5 to identify behavioral differences
 
 Located above the request/response panels:
 
-```
 | Button | Function | When to Use |
-| :--- | :--- | :--- |
+|--------|----------|-------------|
 | **Pretty** | Format HTML/JSON for readability | Analyzing structured response bodies |
 | **Raw** | Show unformatted bytes | Finding hidden characters, exact byte matching |
 | **Hex** | Show hexadecimal view | Binary data, encoding analysis |
@@ -261,7 +258,7 @@ GET /dvwa/vulnerabilities/sqli/?id=1' UNION SELECT user, password FROM users -- 
 ## Repeater vs Other Burp Tools
 
 | Tool | Purpose | When to Use |
-| :--- | :--- | :--- |
+|------|---------|-------------|
 | **Proxy** | Intercept live traffic | Initial capture, session management |
 | **Repeater** | Manual iteration of single request | Exploit development, payload tuning |
 | **Intruder** | Automated payload fuzzing | Brute force, parameter scanning |
