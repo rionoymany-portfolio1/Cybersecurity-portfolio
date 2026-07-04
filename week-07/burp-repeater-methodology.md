@@ -102,7 +102,7 @@ Compare: response 1 vs response 5 to identify behavioral differences
 
 ### Anatomy of the Repeater Interface
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │  History: 1  2  3  4  5  [current]                          │
 ├─────────────────────────┬───────────────────────────────────┤
