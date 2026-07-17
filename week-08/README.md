@@ -26,13 +26,13 @@ Custom exploitation script that sends SQLi payloads programmatically, handles se
 ## Learning Objectives
 
 **By end of Week 8, you will:**
-- ✅ Execute the complete UNION-based extraction chain: column count → column positions → table names → column names → data
-- ✅ Use `information_schema` systematically to map database structure
-- ✅ Run sqlmap with session cookie authentication against DVWA
-- ✅ Understand sqlmap injection type detection (UNION, Boolean, Time-based)
-- ✅ Write a Python `requests` script that automates HTTP-based exploitation
-- ✅ Parse HTML responses programmatically using `re` (regular expressions)
-- ✅ Articulate when manual exploitation is preferable over automation and vice versa
+-  Execute the complete UNION-based extraction chain: column count → column positions → table names → column names → data
+-  Use `information_schema` systematically to map database structure
+-  Run sqlmap with session cookie authentication against DVWA
+-  Understand sqlmap injection type detection (UNION, Boolean, Time-based)
+-  Write a Python `requests` script that automates HTTP-based exploitation
+-  Parse HTML responses programmatically using `re` (regular expressions)
+-  Articulate when manual exploitation is preferable over automation and vice versa
 
 ---
 
