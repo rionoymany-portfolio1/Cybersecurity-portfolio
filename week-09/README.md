@@ -37,13 +37,13 @@ User ID manipulation in URL parameters to access unauthorized account data.
 ## Learning Objectives
 
 **By end of Week 8, you will:**
-- ✅ Distinguish Reflected, Stored, and DOM-Based XSS by data flow and persistence
-- ✅ Bypass blacklist-based filters using tag fragmentation and event handlers
-- ✅ Understand why blacklisting specific strings (like "script") never fully solves XSS
-- ✅ Exploit two real, CVE-documented XSS vulnerabilities in production-grade open source software
-- ✅ Understand the conceptual link between XSS and browser exploitation frameworks (BeEF)
-- ✅ Identify and exploit IDOR to access another user's data via direct parameter manipulation
-- ✅ Apply context-aware evasion techniques against character-based filters
+-  Distinguish Reflected, Stored, and DOM-Based XSS by data flow and persistence
+-  Bypass blacklist-based filters using tag fragmentation and event handlers
+-  Understand why blacklisting specific strings (like "script") never fully solves XSS
+-  Exploit two real, CVE-documented XSS vulnerabilities in production-grade open source software
+-  Understand the conceptual link between XSS and browser exploitation frameworks (BeEF)
+-  Identify and exploit IDOR to access another user's data via direct parameter manipulation
+-  Apply context-aware evasion techniques against character-based filters
 
 ---
 
