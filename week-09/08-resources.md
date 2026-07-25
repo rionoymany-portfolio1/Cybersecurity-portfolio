@@ -75,6 +75,7 @@
 | Resource | URL |
 |----------|-----|
 | **FIRST.org CVSS 3.1 Calculator** | https://www.first.org/cvss/calculator/3.1 |
+| **FIRST.org CVSS 4.0 Calculator** | https://www.first.org/cvss/calculator/4.0 |
 
 ---
 
