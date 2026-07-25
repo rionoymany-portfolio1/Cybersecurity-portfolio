@@ -222,21 +222,21 @@ Authorization check present: [yes/no]
 ## Completion Checklist
 
 ### TryHackMe XSS Room
-- [ ] Task 2-3: Terminology and root causes understood
-- [ ] Task 4-5: Reflected XSS + copyparty CVE exploited
-- [ ] Task 6-7: Stored XSS + Hospital Mgmt System CVE exploited
-- [ ] Task 8: DOM-based XSS concept understood
-- [ ] Task 9: Context escape + evasion techniques practiced
-- [ ] Task 10: Remediation recorded
+- [✓] Task 2-3: Terminology and root causes understood
+- [✓] Task 4-5: Reflected XSS + copyparty CVE exploited
+- [✓] Task 6-7: Stored XSS + Hospital Mgmt System CVE exploited
+- [✓] Task 8: DOM-based XSS concept understood
+- [✓] Task 9: Context escape + evasion techniques practiced
+- [✓] Task 10: Remediation recorded
 
 ### DVWA Practice
-- [ ] Reflected Low/Medium/High — all 3 payloads confirmed
-- [ ] Stored Low/Medium/High — all 3 payloads confirmed
-- [ ] maxlength DevTools bypass performed on Medium and High
+- [✓] Reflected Low/Medium/High — all 3 payloads confirmed
+- [✓] Stored Low/Medium/High — all 3 payloads confirmed
+- [✓] maxlength DevTools bypass performed on Medium and High
 
 ### IDOR
-- [ ] User ID manipulation tested
-- [ ] Data exposure documented
+- [✓] User ID manipulation tested
+- [✓] Data exposure documented
 
 ---
 
