@@ -87,14 +87,14 @@ IDOR discovered → Direct account data access (no XSS needed, separate flaw)
 
 ```
 week-08/
-├── README.md                          (this file)
-├── write-up.md                        (6-part framework)
-├── dvwa-xss-exploitation-report.md    (all 6 DVWA payloads: Reflected + Stored, L/M/H)
-├── real-world-cve-case-studies.md     (copyparty + Hospital Mgmt System CVEs)
-├── business-impact-analysis.md        (sourced financial/regulatory impact per vulnerability type)
-├── xss-advanced-concepts.md           (DOM-based theory, BeEF concept, IDOR, evasion)
-├── lab-guide.md                       (TryHackMe + DVWA exercises)
-└── resources.md                       (references)
+├── 01-README.md                          (this file)
+├── 02-write-up.md                        (6-part framework)
+├── 03-dvwa-xss-exploitation-report.md    (all 6 DVWA payloads: Reflected + Stored, L/M/H)
+├── 04-real-world-cve-case-studies.md     (copyparty + Hospital Mgmt System CVEs)
+├── 05-business-impact-analysis.md        (sourced financial/regulatory impact per vulnerability type)
+├── 06-xss-advanced-concepts.md           (DOM-based theory, BeEF concept, IDOR, evasion)
+├── 08-lab-guide.md                       (TryHackMe + DVWA exercises)
+└── 09-resources.md                       (references)
 ```
 
 ---
