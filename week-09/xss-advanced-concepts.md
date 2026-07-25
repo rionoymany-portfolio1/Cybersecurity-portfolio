@@ -105,10 +105,10 @@ Simply changing the `id` parameter returned another user's profile data — user
 IDOR occurs when an application uses a direct, predictable reference (like a sequential database ID) to retrieve a resource, **and fails to verify that the currently authenticated user is actually authorized to access the specific resource being requested.**
 
 ```php
-// Vulnerable pattern
+// Vulnerable pattern (IDOR)
 $id = $_GET['id'];
-$query = "SELECT * FROM users WHERE id = $id";
-// Missing: WHERE id = $id AND owner_session_id = current_user_id()
+$user = db->query("SELECT * FROM users WHERE id = ?", [$id]);
+// Missing authorization logic: check if $user->id matches current_user_id()
 ```
 
 The query is syntactically correct and returns real data — the flaw is entirely in **missing authorization logic**, not in the query's construction (this is why IDOR is a distinct bug class from SQL injection, even though both can involve a `WHERE` clause).
