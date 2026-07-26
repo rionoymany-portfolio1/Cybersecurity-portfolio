@@ -1,373 +1,150 @@
 # Red Team Operations
 
-
-> **4-Year Strategic Learning Program** | Weekly Documentation | Portfolio for Red Team Consultant Role
- 
----
- 
-##  Program Overview
- 
-This is a **single repository documenting a 4-year self-directed offensive security training program**. Each week adds a new folder with complete analysis including technical depth and business context.
- 
-Rather than accumulating isolated technical skills, this program emphasizes:
- 
-- **Technical Mastery** – Attack chains from reconnaissance to persistence
-- **Business Impact Translation** – Vulnerabilities → Revenue/compliance risk
-- **Executive Communication** – Explaining findings to C-suite decision-makers  
-- **Operational Security** – Red Team execution with client-focused methodology
-- **Documented Progression** – 48 weekly folders showing systematic growth
-**Program Duration:** 208 weeks over 4 years (1 new folder per week)  
-**Target Role:** Red Team Consultant / Offensive Security Consultant (Remote)  
-**Starting Age:** 14 years old  
-**Expected Readiness:** OSCP-level + professional communication skills by week 208
- 
----
- 
-##  Why This Matters
- 
-**The Problem with Most Security Portfolios:**
-- Recruiters see technical skills but can't assess consulting ability
-- No evidence of business thinking or customer understanding
-- No systematic track record of learning
-- Unclear depth of expertise
-**What This Program Demonstrates:**
--  **Systematic progression** – 48 weeks of documented growth
--  **Technical + Business synthesis** – Every write-up bridges both
--  **Consulting mindset** – Can explain risk in business terms
--  **Disciplined execution** – Proof of 4-year strategic commitment
--  **Depth over breadth** – Deep mastery, not shallow collection
----
-  
----
- 
-##  The 6-Part Write-Up Framework
- 
-**This framework is the core of the entire portfolio.** Every single week's write-up contains:
- 
-### 1. **Vulnerability**
-What's technically broken and why it matters
- 
-### 2. **Exploitation**  
-How attackers leverage it (step-by-step proof of concept)
- 
-### 3. **Business Impact**
-Revenue loss, compliance exposure, operational disruption (quantified in dollars)
- 
-### 4. **Technical Fix**
-Patching, configuration hardening, remediation code
- 
-### 5. **Policy Fix**
-Organizational controls, process changes, governance
- 
-### 6. **Detection Rule**
-How to identify this attack (Sigma/YARA/SIEM rule with explanation)
- 
----
- 
-##  Why This 6-Part Framework Separates You
- 
-**Traditional Penetration Tester says:**
-> "Found SQL injection in login form. Risk level: HIGH"
- 
-**Red Team Consultant (using this framework) explains:**
-> 
-> **Vulnerability:** SQL injection in authentication allows unauthenticated database access
-> 
-> **Exploitation:** `admin' OR '1'='1` bypasses login, returns 50K customer records
-> 
-> **Business Impact:** $2.4M in customer data value + GDPR fines up to €10M + 18-month detection gap
-> 
-> **Technical Fix:** Prepared statements + input validation (8 hours IT work)
-> 
-> **Policy Fix:** Code review requirement + secure SDLC training mandatory
-> 
-> **Detection Rule:** Alert if SQL keywords detected in authentication parameters
- 
-The second one gets the Red Team consultant job.
- 
----
- 
-##  Learning Progression by Year
- 
-### Year 1 (Weeks 1–52): Foundations
-**Goal:** Linux mastery + Python basics + Business thinking starts
- 
-| Weeks | Topic | Deliverables | Target |
-|-------|-------|--------------|--------|
-| 1–4 | Linux fundamentals | 4 write-ups + 1 business case study | Shell fluency |
-| 5–8 | Web application basics | 8 write-ups + TryHackMe engagement | SQLi/XSS/IDOR |
-| 9–13 | Active Directory intro | 13 write-ups + business frameworks | AD enumeration |
-| 14–26 | Advanced exploitation + Python | 26 write-ups + Python tools | Advanced techniques |
-| 27–39 | Business frameworks + IELTS | 39 write-ups + case studies | Professional communication |
-| 40–52 | Year 1 consolidation | 52 write-ups complete | Ready for Year 2 |
- 
-**Year 1 Checkpoint (Week 52):**
-- ✓ 52 complete write-ups (6-part framework)
-- ✓ TryHackMe Top 5%
-- ✓ 2-3 business case studies
-- ✓ IELTS Mock 5.0+
-- ✓ NIST CSF understanding
-- ✓ Python functional (port scanner, HTTP tools)
----
- 
-### Year 2 (Weeks 53–104): Intermediate Operations
-**Goal:** HackTheBox mastery + Bug bounty real-world + Business maturity
- 
-| Weeks | Topic | Deliverables | Target |
-|-------|-------|--------------|--------|
-| 53–65 | HackTheBox Starting Point | 65 write-ups + 10 Easy machines | Web exploitation chain |
-| 66–78 | Windows domain attacks | 78 write-ups + Kerberoasting | Active Directory at depth |
-| 79–91 | Post-exploitation + business studies | 91 write-ups + 3-4 case studies | Client communication |
-| 92–104 | Bug bounty + advanced web | 104 write-ups complete | Real-world application |
- 
-**Year 2 Checkpoint (Week 104):**
-- ✓ 104 cumulative write-ups
-- ✓ HTB Easy 10+ machines
-- ✓ HTB Medium 1+ machines
-- ✓ 1+ valid bug bounty report
-- ✓ IELTS Mock 5.5+
-- ✓ ISO 27001 basics
-- ✓ 3-4 business case studies
----
- 
-### Year 3 (Weeks 105–156): Advanced Operations
-**Goal:** HTB Pro Hacker + Freelance engagements + Executive communication proven
- 
-| Weeks | Topic | Deliverables | Target |
-|-------|-------|--------------|--------|
-| 105–117 | HTB Medium machines | 117 write-ups + 5+ Medium complete | Lateral movement mastery |
-| 118–130 | Advanced evasion + Sigma rules | 130 write-ups + Sigma rules written | Defensive perspective |
-| 131–143 | Red team simulation + freelance | 143 write-ups + 2-3 freelance jobs | Client-ready skills |
-| 144–156 | OSCP preparation begins | 156 write-ups complete | Advanced exploitation |
- 
-**Year 3 Checkpoint (Week 156):**
-- ✓ 156 cumulative write-ups
-- ✓ HTB Pro Hacker status
-- ✓ IELTS 6.5+
-- ✓ 2-3 freelance penetration tests
-- ✓ 5-6 business case studies
-- ✓ Sigma rules written (detection mindset)
-- ✓ Client communication demonstrated
----
- 
-### Year 4 (Weeks 157–208): Professional Consolidation
-**Goal:** OSCP-ready + Job applications + Interview-ready portfolio
- 
-| Weeks | Topic | Deliverables | Target |
-|-------|-------|--------------|--------|
-| 157–169 | OSCP exam prep intensive | 169 write-ups + OSCP-ready | Advanced exploitation |
-| 170–182 | Advanced Red Team techniques | 182 write-ups + Freelance project 4-5 | Mastery level |
-| 183–195 | Resume + LinkedIn + Job search | 195 write-ups + Portfolio polish | Job applications |
-| 196–208 | Interview prep + Final polish | 208 write-ups complete | Job offers |
- 
-**Year 4 Checkpoint (Week 208 — FINAL)**
-- ✓ 208 complete write-ups (entire portfolio)
-- ✓ IELTS 7.0+ (professional fluency)
-- ✓ OSCP certified or equivalent skill
-- ✓ 4-5 freelance projects (with client references)
-- ✓ Resume sent to 10+ companies
-- ✓ 6+ business case studies (from age 11 onwards)
-- ✓ LinkedIn profile optimized
-- ✓ **Ready for Red Team Consultant interviews**
----
- 
-##  Weekly Workflow
- 
-Every week follows this schedule:
- 
-| Day | Activity | Output |
-|-----|----------|--------|
-| **Mon-Wed** | Learn topic + complete labs | Technical notes |
-| **Thursday** | Write 6-part write-up + exploitation proof | Full write-up.md |
-| **Friday** | Business impact analysis + customer brief | business-impact-analysis.md |
-| **Saturday** | Review + polish all content | Final review |
-| **Sunday** | Commit + push to GitHub | New week folder live |
- 
-**Every Sunday:** New week folder added to `red-team-operations` repo with complete documentation.
- 
----
- 
-##  Business Case Studies
- 
-Portfolio includes business case studies drawn from Rio's real entrepreneurial background:
- 
-**Age 11–14 Business Ventures:**
- 
-1. **Water Delivery Service (Age 11)** ✓
-   - **Problem Identified:** Classmates at soccer practice were lazy to bring water from home
-   - **Solution:** Delivered cold water on-demand to the field
-   - **Business Insight:** Solve friction, not perceived needs
-   - **Status:** Tested market, learned distribution
-2. **Umbrella Rental Service (Age 12)** ✓
-   - **Problem Identified:** Soccer group arriving without umbrellas when weather was unpredictable
-   - **Solution:** Rent umbrellas by the match duration
-   - **Customer Understanding:** Convenience > ownership (pay-per-use beats buying)
-   - **Status:** Tested niche market, learned pricing dynamics
-3. **Watch Rental Service - Fashion (Age 13)** 
-   - **Problem Identified:** Players wanting to track time without carrying phones
-   - **Solution:** Rent affordable watches to group
-   - **Market Lesson:** Niche + low barrier to entry seemed viable but...
-   - **Status:** Market didn't sustain, learned failure data
-4. **Massage Service (Age 14+)** ✓ **Still Operating**
-   - **Problem Identified:** Soccer players constantly complaining about leg pain, soreness post-match
-   - **Solution:** Offer professional massage service
-   - **Business Maturity:** Recognized sustainable customer pain point
-   - **Status:** Active revenue stream, direct customer feedback loops
-5. **Deodorant Spray Service (Age 14+)** ✓ **Still Operating**
-   - **Problem Identified:** Players embarrassed about strong body odor after matches
-   - **Customer Psychology:** Too shy to use their own spray in front of peers
-   - **Solution:** Professional spray service (low-cost, shame-free, normalized)
-   - **Business Acumen:** Solve emotional friction + physical problem simultaneously
-   - **Status:** Active, sustainable revenue, customer retention high
-**Current Status:** 3 ventures pivoted/tested learning | 2 ventures currently operating (Massage + Deodorant Spray)
- 
-**Why This Matters for Red Team Recruiting:**
- 
-Recruiters don't just see a hacker—they see someone who:
--  **Identifies real customer pain** (not theoretical, not assumed)
--  **Understands customer psychology** (shame-free service design > standard offering)
--  **Recognizes sustainable demand** (massage + spray still operating = real market signal)
--  **Pivots on market feedback** (failed ventures = data, not weakness)
--  **Operates with operational discipline** (multiple ventures = execution capability)
--  **Self-funds experiments** (bootstrap learning, no dependency on parents/investors)
-**Direct Translation to Red Team Consulting:**
-- **Finding vulnerabilities** = identifying real customer pain points (not CIS benchmark boxes)
-- **Understanding impact** = recognizing business context (why this matters to revenue/operations)
-- **Recommending fixes** = solving customer's actual problem (not textbook remediation)
-- **Communicating risk** = speaking customer language (financial impact, operational risk, timing)
-- **Building sustainable engagement** = long-term trust, like massage/spray customer retention
-**Recruiter Insight:** *"14-year-old already operates with business discipline. They understand customer psychology, market signals, and failure recovery. They won't just tell a CIO 'you have SQL injection'—they'll explain why it matters to their Q3 revenue forecast and incident response timelines."*
-
-  ---
- 
-##  Ethical Commitment
- 
-✓ **Educational purposes only.** All demonstrations use:
-- TryHackMe authorized labs
-- HackTheBox authorized machines
-- Bug bounty programs with explicit permission
-- Personal controlled environments
-✓ **No unauthorized access.** Every technique documented for:
-- Authorized penetration testing only
-- Defensive awareness
-- Educational context
-✓ **Full transparency.** Each write-up includes detection/mitigation, showing:
-- Blue team perspective
-- Defensive controls
-- Incident response readiness
----
- 
-##  What Recruiters Will See
- 
-| Metric | What It Says | Timeline |
-|--------|------------|----------|
-| **Week 1-13** | "This person is serious and systematic" | Month 3 |
-| **Week 14-26** | "They understand real-world systems" | Month 6 |
-| **Week 27-39** | "They can handle advanced attacks" | Month 9 |
-| **Week 40-48** | "They're OSCP-ready and professional" | Month 12 |
- 
-By month 12, a single `red-team-operations` repo with 48 documented weeks will impress more than:
-- 5 separate portfolios
-- 10 certifications on resume
-- 3 years of "experience" listed
-Because it shows **systematic execution over 1 year of documented learning**.
+> A self-directed offensive security portfolio, built one documented week at a time — technical depth paired with business-impact communication.
 
 ---
- 
-##  Success Checkpoints
- 
-### Week 52 (Month 12, End of Year 1)
-- [ ] 52 write-ups complete (6-part framework)
-- [ ] TryHackMe Top 5%
-- [ ] 2-3 business case studies
-- [ ] IELTS Mock 5.0+
-- [ ] Commit to GitHub weekly
-- [ ] NIST CSF understanding
-### Week 104 (Month 24, End of Year 2)
-- [ ] 104 write-ups cumulative
-- [ ] HTB Easy 10+ machines done
-- [ ] 1st bug bounty report submitted
-- [ ] 3-4 business case studies
-- [ ] IELTS 5.5+ achieved
-- [ ] LinkedIn profile started
-### Week 156 (Month 36, End of Year 3)
-- [ ] 156 write-ups cumulative
-- [ ] HTB Pro Hacker status achieved
-- [ ] 2-3 freelance jobs completed
-- [ ] 5-6 business case studies
-- [ ] IELTS 6.5+ achieved
-- [ ] Portfolio 3/4 complete
-### Week 208 (Month 48, End of Year 4) — FINAL
-- [ ] **208 write-ups complete (100% portfolio)**
-- [ ] OSCP-ready or certified
-- [ ] 4-5 freelance jobs with references
-- [ ] IELTS 7.0+ (professional English)
-- [ ] Resume ready for job search
-- [ ] LinkedIn profile optimized
-- [ ] **Ready for Red Team Consultant interviews**
+
+## Goal
+
+The aim of this portfolio is a role as a **Cybersecurity Consultant**, specializing in Red Team / offensive security work, open to remote or hybrid arrangements, based in Laos.
+
+A consultant's value isn't just finding vulnerabilities — it's explaining *why they matter* to the people who have to decide what to do about them. Every week added to this repository is built to prove both halves are there: the technical skill to find and exploit real flaws, and the business fluency to translate them into terms a CFO, compliance officer, or engineering lead can act on.
+
+Certifications and platform milestones (a recognized penetration-testing certification, sustained progress on HackTheBox/TryHackMe, professional English fluency for client-facing work) matter as waypoints — they support the goal, they aren't the goal itself. Which specific certification that ends up being is a method detail that can change; the detailed week-by-week plan for reaching whichever one it is is tracked separately and changes as the work demands. What stays fixed is the destination above.
+
 ---
- 
-##  How to Use This Repository
- 
-1. **Start here** – Read this README to understand the program
-2. **Check PROGRESS-TRACKER.md** – See which weeks are complete
-3. **Read week-01** – Understand the 6-part framework with first example
-4. **Follow the pattern** – Each subsequent week follows same structure
-5. **Bookmark for job search** – By month 12, this is your portfolio
+
+## What This Repository Demonstrates
+
+- **Technical mastery** — full attack chains from reconnaissance through exploitation and reporting
+- **Business impact translation** — every finding connects a technical flaw to real financial, regulatory, or operational consequence, backed by cited sources
+- **Executive communication** — findings written for decision-makers, not just fellow engineers
+- **Sustained, systematic execution** — new, documented work added consistently over years, not a handful of isolated write-ups
+
 ---
- 
-##  Key Information
- 
-- **GitHub Repository:** [red-team-operations](https://github.com/[username]/red-team-operations)
-- **Update Frequency:** New week added every Sunday
-- **Target Location:** Remote (Laos-based, non-negotiable)
-- **Target Role:** Red Team Consultant (C-suite risk communication specialization)
-- **Program Status:** Week 1 launching | Push every Sunday for 48 weeks
-- **Expected Job Search:** Month 40+ (Week 40+)
+
+## Why This Matters
+
+Most junior cybersecurity portfolios show scattered, disconnected proof: a certificate here, a CTF flag there, a single blog post. None of it shows whether the person can operate like a consultant — someone whose findings a client can actually act on.
+
+This repository is built to answer three questions a hiring manager actually has:
+
+1. **Can they find real vulnerabilities?** → Documented exploitation with proof of concept, every week.
+2. **Can they explain business impact to non-technical stakeholders?** → Every finding includes a business-impact section with cited, verifiable figures — not invented numbers.
+3. **Can they sustain this without external pressure?** → A long, consistent history of self-directed work, visible in the commit history itself.
+
 ---
- 
-##  Framework Resources
- 
-- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) – For policy fix section
-- [ISO 27001](https://www.iso.org/isoiec-27001-information-security-management.html) – For business context
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/) – For vulnerability categories
-- [Sigma Rules](https://github.com/SigmaHQ/sigma) – For detection rule examples
-- [YARA Rules](https://virustotal.github.io/yara/) – For malware detection rules
-- [HackTheBox](https://www.hackthebox.com/) – For practical labs
-- [TryHackMe](https://tryhackme.com/) – For guided learning
-- [OffSec OSCP](https://www.offsec.com/) – For certification path
+
+## Analytical Approach
+
+Each week's core write-up is generally organized around six recurring angles, applied to whatever that week's vulnerability actually calls for:
+
+1. **Vulnerability** — what's technically broken, and why
+2. **Exploitation** — how it's actually leveraged, with proof of concept
+3. **Business Impact** — the real financial, regulatory, or operational consequence, backed by cited sources
+4. **Technical Fix** — the concrete remediation
+5. **Policy Fix** — the organizational control that prevents recurrence
+6. **Detection Rule** — how a defender would catch this attack in progress
+
+**None of this is a rigid template.** Depending on the week, some of these angles get far more depth than others, some get folded together, and the surrounding material — how many supporting files a week has, what they're named, whether there's a real-world CVE case study, custom tooling, or a deeper business-impact breakdown — depends entirely on what that week's specific vulnerability and content actually need. The six angles are a consistent lens to look through, not a fixed six-file (or six-section) checklist every week must match exactly.
+
+### Why This Framework Separates This Portfolio
+
+Most junior write-ups stop at: *"I found X vulnerability using Y tool."*
+
+This portfolio's write-ups read: *"I found X vulnerability. Here's how a real attacker chains it into Y business consequence, costing approximately $Z based on [cited source]. Here's the technical fix, the policy that should have prevented it, and the detection rule that would catch the next attempt."*
+
+That difference — technical finding *plus* business translation *plus* defensive follow-through — is what a Red Team consulting role actually requires, and what most portfolios at this stage skip entirely.
+
 ---
- 
-##  Philosophy
- 
-> *"A Red Team Consultant doesn't just break systems. They break systems AND explain why the organization failed to stop them, in language that CFOs understand."*
- 
-This 48-week program teaches all six elements:
- 
-1. **What attackers do** (technical mastery)
-2. **Why it works** (system weakness)
-3. **How to fix it technically** (remediation)
-4. **How to prevent it organizationally** (policy)
-5. **How to detect it operationally** (monitoring)
-6. **How to explain it to executives** (communication)
-Most security professionals master 2–3 of these. This program targets mastery of all 6.
- 
+
+## Learning Arc
+
+The work progresses roughly from foundations toward professional-consulting readiness:
+
+- **Foundations** — Linux, Python, networking fundamentals, and TryHackMe's core learning paths
+- **Intermediate** — web application vulnerabilities (injection, XSS, access control), manual exploitation methodology, and vulnerability research using real CVE databases
+- **Advanced** — more complex attack chains, tooling development, and platform progress toward HackTheBox and a professional-level penetration testing certification
+- **Professional consolidation** — client-ready reporting, mock engagements, and interview readiness
+
+The detailed week-by-week schedule that maps to this arc is tracked separately and is expected to shift as real progress dictates — the arc above is the part that stays stable.
+
 ---
- 
-##  Final Note
- 
-This single repository documents a complete 4-year journey from Linux fundamentals to Red Team Consultant readiness.
- 
-By week 208:
-- Recruiters won't see a young person's portfolio
-- They'll see **systematic evidence of professional development**
-- Delivered through disciplined weekly execution (1 folder per week)
-- Backed by business thinking + technical depth
-That's what makes you **hire-worthy**.
- 
+
+## Business Case Studies
+
+Alongside the technical portfolio, this repository draws on real entrepreneurial experience as supporting evidence of business thinking — problem identification, unit economics, and adapting when something doesn't work:
+
+| Venture | Age Started | Status |
+|---------|-------------|--------|
+| Water Delivery | 11 | Closed |
+| Umbrella Rental | 12 | Closed |
+| Watch Rental / Fashion | 13 | Closed |
+| Massage Service | 14 | Still operating, reduced pace |
+| Deodorant Spray Service | 14 | Still operating, reduced pace |
+
+Each is documented as a case study in problem-identification and business reasoning — the same skill a Red Team consultant needs when translating a technical finding into a business case a client will actually act on.
+
 ---
- 
-**Program Structure:** 208 weeks | 4 years | 1 folder per week  
-**Target Role:** Red Team Consultant (C-suite risk communication)  
-**Location Requirement:** Remote (non-negotiable)  
-**Portfolio Delivery:** One new week folder + GitHub commit per week
+
+## Ethical Commitment
+
+All work in this repository is conducted in authorized, legal environments only:
+
+- TryHackMe and HackTheBox labs (authorized training platforms)
+- DVWA and other deliberately vulnerable applications, self-hosted for learning
+- PortSwigger Web Security Academy labs (authorized)
+- Personal or explicitly authorized test environments only
+
+No content in this repository targets, or provides instructions for targeting, any system without explicit authorization.
+
+---
+
+## How to Use This Repository
+
+Each week's folder is self-contained. Start with that week's `README.md` for an overview, then `write-up.md` for the core technical-to-business analysis. Supporting files (lab guides, case studies, tooling, resources) are named for what they contain.
+
+For current progress, see the progress tracker maintained alongside this repository rather than this file — that way this README doesn't need editing every time a new week is added.
+
+---
+
+## Key Information
+
+- **GitHub Repository:** [red-team-operations](https://github.com/rionoymany-portfolio1/red-team-operations)
+- **Target Role:** Cybersecurity Consultant — Red Team / Offensive Security specialization
+- **Location:** Remote or hybrid, based in Laos
+- **Started:** 2025, at age 14
+
+---
+
+## Framework Resources
+
+- OWASP Top 10: https://owasp.org/www-project-top-ten/
+- CWE (Common Weakness Enumeration): https://cwe.mitre.org/
+- NVD (National Vulnerability Database): https://nvd.nist.gov/
+- TryHackMe: https://tryhackme.com/
+- HackTheBox: https://www.hackthebox.com/
+- PortSwigger Web Security Academy: https://portswigger.net/web-security
+
+---
+
+## Philosophy
+
+A Red Team consultant's job isn't just breaking things — it's helping an organization understand *why* something is broken, *what happens* if it stays broken, and *how* to fix it in a way that survives contact with a real budget and a real engineering backlog.
+
+This program is built to develop all of that together:
+
+1. **Technical skill** — the ability to actually find and exploit vulnerabilities
+2. **Business fluency** — the ability to explain impact in terms of dollars, risk, and regulation
+3. **Communication** — writing findings a non-technical executive can act on
+4. **Consistency** — showing up and doing the work, week after week, without anyone requiring it
+5. **Ethics** — always working within authorized scope
+6. **English fluency** — because most of this industry's client-facing work happens in English
+
+---
+
+## Final Note
+
+This repository is not a school project or a portfolio built for a single application deadline. It's evidence of a specific kind of person: one who can identify a problem, understand its real-world consequence, and communicate that clearly enough for someone else to act on it — sustained over years, without anyone else requiring it.
+
+A recruiter looking through this repository won't see a young person's portfolio. They'll see a growing, dated record of exactly the judgment a Red Team consulting role requires.
