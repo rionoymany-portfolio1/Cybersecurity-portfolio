@@ -6,7 +6,7 @@
 
 ## Goal
 
-The aim of this portfolio is a role as a **Cybersecurity Consultant**, specializing in Red Team / offensive security work, open to remote or hybrid arrangements, based in Laos.
+The aim of this portfolio is a role as a **Cybersecurity Consultant junior**, specializing in Red Team / offensive security work, open to remote or hybrid arrangements, based in Laos.
 
 A consultant's value isn't just finding vulnerabilities — it's explaining *why they matter* to the people who have to decide what to do about them. Every week added to this repository is built to prove both halves are there: the technical skill to find and exploit real flaws, and the business fluency to translate them into terms a CFO, compliance officer, or engineering lead can act on.
 
