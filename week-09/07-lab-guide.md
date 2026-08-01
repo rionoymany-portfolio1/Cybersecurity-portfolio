@@ -1,4 +1,4 @@
-# Lab Guide: Week 8 — XSS & Access Control
+# Lab Guide: Week 9 — XSS & Access Control
 
 ---
 
