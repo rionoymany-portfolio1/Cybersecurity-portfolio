@@ -77,7 +77,7 @@ week-09/
 ├── 02-write-up.md                                (6-part framework — race condition RCE)
 ├── 03-file-upload-exploitation-report.md         (all 4 PortSwigger labs, step by step)
 ├── 04-file-upload-bypass-techniques-reference.md (all 5 techniques, theory + payloads)
-├── 05real-world-cve-case-studies.md             (SAP, WordPress, Struts, Drupal CVEs)
+├── 05-real-world-cve-case-studies.md             (SAP, WordPress, Struts, Drupal CVEs)
 ├── 06-business-impact-analysis.md                (sourced impact per technique)
 ├── 07-lab-guide.md                               (hands-on PortSwigger exercises)
 └── 08-resources.md                               (references)
