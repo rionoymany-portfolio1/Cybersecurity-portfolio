@@ -60,7 +60,7 @@ Timeline:
 
 T+0ms   move_uploaded_file() writes payload.php to /avatars/
         │
-        ├── RACE WINDOW OPEN ──────────────────┐
+        ├── RACE WINDOW OPEN ───────────────────┐
         │                                       │
 T+Xms   Attacker's GET request to payload.php   │
         arrives inside the window, executes it  │
