@@ -1,4 +1,4 @@
-# Week 9: File Upload Vulnerabilities — From Basic Bypass to Race Conditions
+# Week 10: File Upload Vulnerabilities — From Basic Bypass to Race Conditions
 
 > **Five Techniques, One Root Cause: The Server Trusts What It Shouldn't**
 
@@ -28,12 +28,12 @@ Double extension (`shell.php.jpg`) and null byte injection (`shell.php%00.jpg`) 
 ## Learning Objectives
 
 **By end of Week 9, you will:**
-- ✅ Understand why unrestricted file upload (CWE-434) is one of the most severe web vulnerability classes — it grants code execution, not just data access
-- ✅ Bypass four progressively stronger upload filters, each defeated by a different flawed assumption
-- ✅ Understand Time-of-Check to Time-of-Use (TOCTOU) race conditions and how modern HTTP/2 tooling makes them dramatically more reliable
-- ✅ Build a persistent "dropper" payload to survive a narrow exploitation window
-- ✅ Connect four of the five techniques to a real, CVE-documented breach in production software — and understand why the fifth (race conditions) is genuinely harder to trace to a single named incident
-- ✅ Explain the business consequence of each bypass technique with cited, verifiable sources
+-  Understand why unrestricted file upload (CWE-434) is one of the most severe web vulnerability classes — it grants code execution, not just data access
+-  Bypass four progressively stronger upload filters, each defeated by a different flawed assumption
+-  Understand Time-of-Check to Time-of-Use (TOCTOU) race conditions and how modern HTTP/2 tooling makes them dramatically more reliable
+-  Build a persistent "dropper" payload to survive a narrow exploitation window
+-  Connect four of the five techniques to a real, CVE-documented breach in production software — and understand why the fifth (race conditions) is genuinely harder to trace to a single named incident
+-  Explain the business consequence of each bypass technique with cited, verifiable sources
 
 ---
 
@@ -73,16 +73,15 @@ using a dropper payload for persistence → bypassed
 
 ```
 week-09/
-├── README.md                                  (this file)
-├── write-up.md                                (6-part framework — race condition RCE)
-├── file-upload-exploitation-report.md         (all 4 PortSwigger labs, step by step)
-├── file-upload-bypass-techniques-reference.md (all 5 techniques, theory + payloads)
-├── real-world-cve-case-studies.md             (SAP, WordPress, Struts, Drupal CVEs)
-├── business-impact-analysis.md                (sourced impact per technique)
-├── lab-guide.md                               (hands-on PortSwigger exercises)
-└── resources.md                               (references)
+├── 01-README.md                                  (this file)
+├── 02-write-up.md                                (6-part framework — race condition RCE)
+├── 03-file-upload-exploitation-report.md         (all 4 PortSwigger labs, step by step)
+├── 04-file-upload-bypass-techniques-reference.md (all 5 techniques, theory + payloads)
+├── 05real-world-cve-case-studies.md             (SAP, WordPress, Struts, Drupal CVEs)
+├── 06-business-impact-analysis.md                (sourced impact per technique)
+├── 07-lab-guide.md                               (hands-on PortSwigger exercises)
+└── 08-resources.md                               (references)
 ```
 
 ---
 
-**Status:** Week 9 | File Upload Vulnerabilities: Basic Bypass to Race Conditions | Complete
