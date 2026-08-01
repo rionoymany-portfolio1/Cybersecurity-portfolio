@@ -297,7 +297,7 @@ For any confirmed or suspected upload-based compromise:
 
 ---
 
-**Status:** Week 9 Complete | TOCTOU Race Condition File Upload RCE Mastered | 6-Part Framework Applied
+**Status:** Week 10 Complete | TOCTOU Race Condition File Upload RCE Mastered | 6-Part Framework Applied
 
 **References:**
 - CWE-367: https://cwe.mitre.org/data/definitions/367.html
