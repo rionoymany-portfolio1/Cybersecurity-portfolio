@@ -148,5 +148,5 @@ version, rather than something to attempt against a current target.
 - [✓] Lab 3 (Practitioner): Path traversal — solved
 - [✓] Lab 4 (Expert): Race condition — solved
 - [✓] Double extension concept — understood, correctly identified as server-config-dependent
-- [ ] Null byte injection — understood, correctly identified as patched since PHP 5.3.4
+- [✓] Null byte injection — understood, correctly identified as patched since PHP 5.3.4
 
