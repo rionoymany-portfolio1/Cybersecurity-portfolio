@@ -1,4 +1,4 @@
-# Resources: Week 9 — File Upload Vulnerabilities
+# Resources: Week 10 — File Upload Vulnerabilities
 
 ---
 
@@ -91,6 +91,4 @@ Full sourced breakdown by technique is in `business-impact-analysis.md`. Quick r
 | **Fri–Sat** | Lab 4: Race condition (Expert — allow extra time) | PortSwigger + Burp Suite |
 | **Sun** | Double extension / null byte theory review + write-up + commit | All files |
 
----
 
-**Status:** Week 9 Resources | Complete Reference | Ready for Learning
