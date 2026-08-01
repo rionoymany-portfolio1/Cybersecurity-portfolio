@@ -1,4 +1,4 @@
-# Week 8: Cross-Site Scripting (XSS) & Access Control Bypass
+# Week 9: Cross-Site Scripting (XSS) & Access Control Bypass
 
 > **From Reflected Alerts to Real-World CVEs — Blacklist Filters Are Not Security**
 
