@@ -1,4 +1,4 @@
-# Resources: Week 8 — XSS & Access Control
+# Resources: Week 9 — XSS & Access Control
 
 ---
 
