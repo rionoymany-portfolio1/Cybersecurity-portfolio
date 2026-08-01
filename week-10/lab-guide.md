@@ -1,4 +1,4 @@
-# Lab Guide: Week 10 — File Upload Vulnerabilities
+# Lab Guide: Week 9 — File Upload Vulnerabilities
 
 ---
 
@@ -128,15 +128,22 @@ a technique to recognize during real-world engagements against
 potentially misconfigured legacy servers.
 ```
 
-**Null byte injection — why it can't be practiced live:**
+**Null byte injection — why it can't be practiced live against modern PHP:**
 ```
 Filename: shell.php%00.jpg
 
-This technique was patched at the PHP language level in version
+This exact technique is patched at the PHP language level since version
 5.3.4 (2010). Any current PortSwigger lab or modern PHP environment
-will not be vulnerable to this exact payload — it is documented as
-historical/reference knowledge, verified against a legacy PHP
-version, rather than something to attempt against a current target.
+will not be vulnerable to this specific payload — it is documented as
+reference knowledge, not something to attempt against a current PHP target.
+
+However: the null byte's behavior as a C string terminator is not gone
+from the world. Modern applications (Python, Node.js, Go) that call
+native C/C++ extensions or use a Foreign Function Interface (FFI) can
+reintroduce this exact mismatch if they pass user-supplied strings
+across that boundary without independent null-byte validation.
+Understanding why the technique worked is what matters, not only that
+it was patched in PHP.
 ```
 
 ---
@@ -148,5 +155,4 @@ version, rather than something to attempt against a current target.
 - [✓] Lab 3 (Practitioner): Path traversal — solved
 - [✓] Lab 4 (Expert): Race condition — solved
 - [✓] Double extension concept — understood, correctly identified as server-config-dependent
-- [✓] Null byte injection — understood, correctly identified as patched since PHP 5.3.4
-
+- [✓] Null byte injection — understood: patched in modern PHP since 5.3.4, but the underlying C string-terminator mismatch remains an active concern wherever modern code crosses into native C/C++ bindings or FFI without independent null-byte validation
