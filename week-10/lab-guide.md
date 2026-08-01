@@ -1,4 +1,4 @@
-# Lab Guide: Week 9 — File Upload Vulnerabilities
+# Lab Guide: Week 10 — File Upload Vulnerabilities
 
 ---
 
