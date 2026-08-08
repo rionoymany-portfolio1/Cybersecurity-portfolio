@@ -26,13 +26,13 @@ Auditing whether that control is implemented requires knowing what "managed and 
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  Layer 7 — Application    HTTP, HTTPS, DNS, FTP, SMTP  │  ← WAF, content filtering, DLP
-│  Layer 6 — Presentation   TLS/SSL, encoding, JPEG      │  ← Encryption (A.8.24)
-│  Layer 5 — Session        Session establishment, auth  │  ← Session management controls
-│  Layer 4 — Transport      TCP, UDP, port numbers       │  ← Firewall port-level rules
-│  Layer 3 — Network        IP addresses, routing, ICMP  │  ← Firewall IP-level rules, routing ACLs
-│  Layer 2 — Data Link      MAC addresses, VLAN tags     │  ← VLAN segmentation, 802.1X
-│  Layer 1 — Physical       Cables, switches, wireless   │  ← Physical access controls, CCTV
+│  Layer 7 — Application    HTTP, HTTPS, DNS, FTP, SMTP   │  ← WAF, content filtering, DLP
+│  Layer 6 — Presentation   TLS/SSL, encoding, JPEG       │  ← Encryption (A.8.24)
+│  Layer 5 — Session        Session establishment, auth   │  ← Session management controls
+│  Layer 4 — Transport      TCP, UDP, port numbers        │  ← Firewall port-level rules
+│  Layer 3 — Network        IP addresses, routing, ICMP   │  ← Firewall IP-level rules, routing ACLs
+│  Layer 2 — Data Link      MAC addresses, VLAN tags      │  ← VLAN segmentation, 802.1X
+│  Layer 1 — Physical       Cables, switches, wireless    │  ← Physical access controls, CCTV
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -102,13 +102,13 @@ Audit relevance:
 
 | Port | Protocol | Status | Control Implication |
 |------|----------|--------|---------------------|
-| 20/21 | FTP | ❌ Non-compliant | Plaintext file transfer — violates A.8.24; replace with SFTP (22) or FTPS (port 990 implicit / port 21 explicit with AUTH TLS) |
-| 22 | SSH / SFTP | ✅ Compliant | Encrypted remote access and file transfer |
-| 23 | Telnet | ❌ Non-compliant | Plaintext remote admin — violates A.8.24; replace with SSH (22) |
-| 80 | HTTP | ⚠️ Context-dependent | Plaintext web traffic — non-compliant for authentication pages (violates A.8.24) |
-| 161/162 | SNMP v1/v2 | ❌ Non-compliant | Network management protocol with known weaknesses; use SNMPv3 |
-| 443 | HTTPS (TLS) | ✅ Compliant | Encrypted web traffic — enforce TLS 1.2 minimum |
-| 3389 | RDP | ⚠️ High-risk | Remote desktop — should never be exposed to external networks; requires MFA |
+| 20/21 | FTP |  Non-compliant | Plaintext file transfer — violates A.8.24; replace with SFTP (22) or FTPS (port 990 implicit / port 21 explicit with AUTH TLS) |
+| 22 | SSH / SFTP |  Compliant | Encrypted remote access and file transfer |
+| 23 | Telnet |  Non-compliant | Plaintext remote admin — violates A.8.24; replace with SSH (22) |
+| 80 | HTTP |  Context-dependent | Plaintext web traffic — non-compliant for authentication pages (violates A.8.24) |
+| 161/162 | SNMP v1/v2 |  Non-compliant | Network management protocol with known weaknesses; use SNMPv3 |
+| 443 | HTTPS (TLS) |  Compliant | Encrypted web traffic — enforce TLS 1.2 minimum |
+| 3389 | RDP |  High-risk | Remote desktop — should never be exposed to external networks; requires MFA |
 
 ---
 
