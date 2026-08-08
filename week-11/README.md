@@ -65,7 +65,7 @@ This framework replaces the pentest 6-part structure (Vulnerability → Exploita
 ## Files This Week
 
 ```
-week-10/
+week-11/
 ├── README.md                                    (this file)
 ├── iso27001-clauses-4-6-analysis.md             (clause-by-clause breakdown with GRC framework)
 ├── isms-scope-and-context-simulation.md         (practical scoping exercise + risk register draft)
