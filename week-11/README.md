@@ -1,4 +1,4 @@
-# Week 10: ISO/IEC 27001:2022 Foundations & Network Security Fundamentals
+# Week 11: ISO/IEC 27001:2022 Foundations & Network Security Fundamentals
 
 > **First GRC Week — Learning to Read a Standard, Not Just Follow It**
 
@@ -70,10 +70,7 @@ week-10/
 ├── iso27001-clauses-4-6-analysis.md             (clause-by-clause breakdown with GRC framework)
 ├── isms-scope-and-context-simulation.md         (practical scoping exercise + risk register draft)
 ├── network-fundamentals-for-grc.md              (OSI + TCP/IP through an audit lens)
-├── network-security-audit-case-studies.md       (15-scenario simulation: log analysis, topology, ACL review)
+├── network-security-audit-writeup.md.md         (15-scenario simulation: log analysis, topology, ACL review)
 └── resources.md                                 (references: ISO standard, PDPA, OWASP, IIA Three Lines)
 ```
 
----
-
-**Status:** Week 10 | First GRC Week | ISO 27001:2022 Clauses 4-6 + Network Fundamentals for Audit
