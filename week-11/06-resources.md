@@ -1,4 +1,4 @@
-# Resources: Week 10 — ISO/IEC 27001:2022 & Network Security Fundamentals
+# Resources: Week 11 — ISO/IEC 27001:2022 & Network Security Fundamentals
 
 ---
 
@@ -97,6 +97,3 @@
 | **Sat** | Applied simulation — 15 case studies (log, topology, ACL review) |
 | **Sun** | Write documentation; commit to repository |
 
----
-
-**Status:** Week 10 Resources | ISO 27001:2022 + Network Fundamentals for GRC | Complete
