@@ -66,11 +66,11 @@ This framework replaces the pentest 6-part structure (Vulnerability → Exploita
 
 ```
 week-11/
-├── 00-README.md                                    (this file)
-├── 01-iso27001-clauses-4-6-analysis.md             (clause-by-clause breakdown with GRC framework)
-├── 02-isms-scope-and-context-simulation.md         (practical scoping exercise + risk register draft)
-├── 03-network-fundamentals-for-grc.md              (OSI + TCP/IP through an audit lens)
-├── 04-network-security-audit-writeup.md.md         (15-scenario simulation: log analysis, topology, ACL review)
-└── 05-resources.md                                 (references: ISO standard, PDPA, OWASP, IIA Three Lines)
+├── 01-README.md                                    (this file)
+├── 02-iso27001-clauses-4-6-analysis.md             (clause-by-clause breakdown with GRC framework)
+├── 03-isms-scope-and-context-simulation.md         (practical scoping exercise + risk register draft)
+├── 04-network-fundamentals-for-grc.md              (OSI + TCP/IP through an audit lens)
+├── 05-network-security-audit-writeup.md.md         (15-scenario simulation: log analysis, topology, ACL review)
+└── 06-resources.md                                 (references: ISO standard, PDPA, OWASP, IIA Three Lines)
 ```
 
