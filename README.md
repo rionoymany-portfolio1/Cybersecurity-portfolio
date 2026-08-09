@@ -84,7 +84,7 @@ Both roles are being pursued simultaneously. The portfolio is structured to be r
 
 ## Repository
 
-**GitHub:** [cybersecurity-portfolio](https://github.com/rionoymany-portfolio1/Cybersecurity-portfolio)
+**GitHub:** [Cybersecurity-portfolio](https://github.com/rionoymany-portfolio1/Cybersecurity-portfolio)
 **Started:** 2025, age 14
 **Status:** Active — updated weekly
 
