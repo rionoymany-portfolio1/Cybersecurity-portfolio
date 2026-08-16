@@ -41,7 +41,7 @@ STATEFUL FIREWALL (fw-main-01)
     ↓                    ↓
    DMZ               INTERNAL ZONE
   [Web Server]       [ERP, Finance, Workstations]
-  [Database ←──⚠️ also here, misconfigured]
+  [Database ←── also here, misconfigured]
 ```
 
 **The critical misconfiguration was not in the firewall itself — it was in the architecture underneath it.** The customer database was deployed in the DMZ alongside the public-facing web server, rather than in the private internal zone. And the firewall's ruleset allowed all traffic from the DMZ to the Internal zone with no restriction (`PERMIT IP DMZ → INTERNAL ANY`), effectively eliminating the security value of the zone boundary.
