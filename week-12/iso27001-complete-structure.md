@@ -68,7 +68,7 @@ ANNEX A — Information Security Controls Reference
 |--------|-------|-------------|-----------------|--------------|
 | 4.1 | Context | 8.5/10 | SWOT/PESTLE for external/internal issues | Applying to highly complex, regulated industries (banking, healthcare) |
 | 4.2 | Interested parties | 8/10 | Stakeholder requirement mapping | Handling conflicting stakeholder requirements |
-| 4.3 | Scope | 9/10 | Cloud shared responsibility scope decisions | Multi-jurisdictional scope across regulatory frameworks |
+| 4.3 | Scope | 8/10 | Cloud shared responsibility scope decisions | Multi-jurisdictional scope across regulatory frameworks |
 | 4.4 | ISMS as a system | 8/10 | Understands process-based approach | Evidencing ISMS integration with business processes |
 | 5.1 | Leadership | 8.5/10 | Three Lines Model application | Assessing whether leadership commitment is genuine vs. performative |
 | 5.2 | Policy | 8.5/10 | Policy content requirements + communication evidence | Measuring policy effectiveness |
@@ -78,7 +78,7 @@ ANNEX A — Information Security Controls Reference
 | 6.3 | Planning of changes | 8.5/10 | Change management gate requirement (new in 2022) | Integrating with existing ITIL/change management frameworks |
 | 7.1 | Resources | 8/10 | Resource requirement documentation | Budget justification for security investment |
 | 7.2 | Competence | 8/10 | Competency matrix and gap closure | Assessing competence vs. credentials (different things) |
-| **7.3** | **Awareness** | **9/10** | **Human bypass of technical controls (Shadow IT)** | Measuring actual behavioral change vs. training completion |
+| 7.3 | Awareness | 8/10 | Human bypass of technical controls (Shadow IT) | Measuring actual behavioral change vs. training completion |
 | 7.4 | Communication | 7.5/10 | Communication plan structure | External communication obligations (regulatory, clients) |
 | 7.5 | Documented information | 8/10 | Document vs. record distinction | Version control at scale across large organizations |
 | 8.1 | Operational control | 8/10 | Clause 6 vs 8 distinction | Third-party / outsourced process control |
@@ -88,7 +88,7 @@ ANNEX A — Information Security Controls Reference
 | 9.2 | Internal audit | 8/10 | Audit finding classification (Major/Minor/OFI) | Auditor independence in small organizations |
 | 9.3 | Management review | 8/10 | Required review inputs and evidence | Ensuring management review drives action, not just documentation |
 | 10.1 | Continual improvement | 8/10 | PDCA cycle as a living process | Distinguishing improvement from reactive firefighting |
-| 10.2 | Nonconformity + CAP | 9/10 | Root cause vs symptom analysis | Effectiveness review (verifying the fix actually worked) |
+| 10.2 | Nonconformity + CAP | 8/10 | Root cause vs symptom analysis | Effectiveness review (verifying the fix actually worked) |
 
 **Overall assessment:** Confident working understanding of the full standard. Residual gaps are concentrated in advanced quantitative risk modeling, multi-jurisdictional scope, and complex stakeholder environments — appropriate depth for an entry-level GRC practitioner.
 
