@@ -236,6 +236,10 @@ A network engineer reviewing this topology would produce a list of misconfigurat
 ---
 
 ## Repository Structure
-
-├── README.md                              (Index and project overview)
-├── 
+week-12/
+├── 01-README.md                                    (Index and overview)
+├── 02-
+├── 03-
+├── 04-
+├── 05-
+└── 06-resources.md                                 
