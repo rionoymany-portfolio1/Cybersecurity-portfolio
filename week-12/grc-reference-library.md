@@ -1,4 +1,4 @@
-# Resources: Week 11 — ISO/IEC 27001:2022 Clauses 7–10, Risk Simulation & Network Assessment
+# Resources: Week 12 — ISO/IEC 27001:2022 Clauses 7–10, Risk Simulation & Network Assessment
 
 ---
 
@@ -117,20 +117,3 @@ Routing payment processing through a certified third-party gateway transfers PCI
 | **PCI Security Standards Council** | https://www.pcisecuritystandards.org/ |
 | **PCI DSS v4.0** | https://www.pcisecuritystandards.org/document_library/ |
 | **Shared Responsibility — Third Party Processors** | Covered under PCI DSS Requirement 12.8 |
-
----
-
-## Weekly Study Schedule
-
-| Day | Activity |
-|-----|----------|
-| **Mon–Tue** | ISO 27001:2022 — read Clause 7 (Support) from official standard |
-| **Wed** | ISO 27001:2022 — read Clauses 8–10 (Operation, Evaluation, Improvement) |
-| **Thu** | Complete 10-clause structure review + Annex A self-assessment |
-| **Fri** | FastBuy risk simulation — risk register construction |
-| **Sat** | FastBuy — corrective action plan (C-Level format) + Network architecture assessment |
-| **Sun** | Write documentation; commit to repository |
-
----
-
-**Status:** Week 11 Resources | ISO 27001:2022 Complete (All Clauses) | FastBuy Simulation | Network GRC Assessment
