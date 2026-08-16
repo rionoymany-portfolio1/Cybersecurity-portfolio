@@ -243,5 +243,5 @@ fastbuy-isms-foundation/
 ├── 02-iso27001-clauses-7-10-analysis.md              (Clause-by-clause breakdown with GRC framework)
 ├── 03-iso27001-complete-structure.md                 (Practical scoping exercise + risk register draft)
 ├── 04-write-up                        
-└── 06-grc-reference-library.md                       (References: ISO standard, PDPA, OWASP, IIA Three Lines)       
+└── 05-grc-reference-library.md                       (References: ISO standard, PDPA, OWASP, IIA Three Lines)       
 ```
