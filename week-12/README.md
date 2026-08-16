@@ -232,3 +232,8 @@ A network engineer reviewing this topology would produce a list of misconfigurat
 - ISO/IEC 27001:2022 Annex A.8.20, A.8.21, A.8.22
 - NIST SP 800-41 Rev 1 (Firewall guidelines): https://csrc.nist.gov/publications/detail/sp/800-41/rev-1/final
 - PDPA Thailand Section 37: https://www.pdpc.or.th/
+
+---
+
+## Repository Structure
+
