@@ -13,10 +13,10 @@ ISO 27001 is built on the Plan–Do–Check–Act (PDCA) improvement model. Ever
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   PLAN          DO           CHECK          ACT            │
-│  ──────        ──────       ───────        ──────          │
-│  Clauses       Clause       Clause         Clause          │
-│  4, 5, 6         8            9              10            │
+│   PLAN          DO           CHECK          ACT             │
+│  ──────        ──────       ───────        ──────           │
+│  Clauses       Clause       Clause         Clause           │
+│  4, 5, 6         8            9              10             │
 │                                                             │
 │              ↑ Clause 7 (Support) runs across ALL phases ↑  │
 │                                                             │
