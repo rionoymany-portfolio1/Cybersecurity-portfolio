@@ -1,7 +1,6 @@
 # ISO/IEC 27001:2022 — Complete Structure: All 10 Clauses + Annex A
 
 > **Purpose:** Consolidated reference and self-assessment after completing all main body clauses
-> **Basis:** ISO/IEC 27001:2022 (Third Edition) read in full across Weeks 10–11
 
 ---
 
