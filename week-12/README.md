@@ -235,11 +235,11 @@ A network engineer reviewing this topology would produce a list of misconfigurat
 
 ---
 
-## Repository Structure
-week-12/
-├── 01-README.md                                    (Index and overview)
-├── 02-
-├── 03-
-├── 04-
-├── 05-
-└── 06-resources.md                                 
+## Project Documentation
+
+fastbuy-isms-foundation/
+├── 01-README.md                                      (Index and project overview)
+├── 02-iso27001-clauses-7-10-analysis.md              (Clause-by-clause breakdown with GRC framework)
+├── 03-iso27001-complete-structure.md                 (Practical scoping exercise + risk register draft)
+├── 04-write-up                        
+└── 06-grc-reference-library.md                       (References: ISO standard, PDPA, OWASP, IIA Three Lines)                              
