@@ -21,10 +21,10 @@ The connective work of the week was demonstrating that these two disciplines are
 
 ```
 week-13/
-├── README.md                                                  (this file — weekly dashboard)
-├── technical-write-up-annex-a5-and-subnetting.md              (Deep-dive: 37 A.5 controls + 20-problem subnetting log)
-├── business-impact-audit-finding-firewall-subnetting.md       (Applied case: subnet calc to audit finding)
-└── resource-subnetting-and-a5-quick-ref.md                    (Fast-lookup reference: both disciplines)
+├── 01-README.md                                                  (this file — weekly dashboard)
+├── 02-technical-write-up-annex-a5-and-subnetting.md              (Deep-dive: 37 A.5 controls + 20-problem subnetting log)
+├── 03-business-impact-audit-finding-firewall-subnetting.md       (Applied case: subnet calc to audit finding)
+└── 04-resource-subnetting-and-a5-quick-ref.md                    (Fast-lookup reference: both disciplines)
 ```
 
 ---
