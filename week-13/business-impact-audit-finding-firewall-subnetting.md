@@ -43,7 +43,7 @@ Rule 14:  PERMIT TCP 10.0.0.0/20 -> DB-Zone:5432   [Finding — scope review req
 Rule as written: PERMIT TCP 10.0.0.0/20 -> DB-Zone:5432
 
 Address range authorized:  10.0.0.0  through  10.0.15.255
-                            └──────── 4,096 total IP addresses ────────┘
+                           └─ 4,096 total IP addresses ─┘
 
 Any single one of these 4,096 addresses is currently permitted
 to open a TCP connection directly to the financial database.
