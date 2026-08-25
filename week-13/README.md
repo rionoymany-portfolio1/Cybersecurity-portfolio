@@ -1,4 +1,4 @@
-# Week 13: ISO 27001 Annex A.5 Deep-Dive & IPv4 Subnetting Mastery
+# Project: Network Access Control Audit & ISO 27001 (A.5) Compliance Simulation
 
 > **Period:** August 17–22, 2026
 > **Format:** Self-directed study (ISO 27001 Annex A.5) + hands-on calculation practice (IPv4 subnetting) + applied GRC case study synthesis
@@ -21,7 +21,7 @@ The connective work of the week was demonstrating that these two disciplines are
 
 ```
 week-13/
-├── week13-readme.md                                          (this file — weekly dashboard)
+├── README.md                                                  (this file — weekly dashboard)
 ├── technical-write-up-annex-a5-and-subnetting.md              (Deep-dive: 37 A.5 controls + 20-problem subnetting log)
 ├── business-impact-audit-finding-firewall-subnetting.md       (Applied case: subnet calc to audit finding)
 └── resource-subnetting-and-a5-quick-ref.md                    (Fast-lookup reference: both disciplines)
