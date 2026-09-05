@@ -1,7 +1,7 @@
 # Resources: ISO/IEC 27001 Annex A.7 Physical Controls and AWS Cloud Security
 
 > **Scope:** Reference materials, whitepapers, and frameworks used to build the Annex A.7 Physical Controls simulation and the FinTrust Startup AWS Cloud Security assessment
-> **Companion Files:** [Technical Write-Up](write-up-a7-and-aws-cloud-security.md) -- [Business Impact and Risk Analysis](business-impact-a7-and-aws-cloud-security.md) -- [Evidence Matrix](evidence-matrix-a7-and-aws-cloud-security.md)
+> **Companion Files:** [Technical Write-Up](02-write-up-a7-and-aws-cloud-security.md) -- [Business Impact and Risk Analysis](03-business-impact-a7-and-aws-cloud-security.md) -- [Evidence Matrix](04-evidence-matrix-a7-and-aws-cloud-security.md)
 
 ---
 
