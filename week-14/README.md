@@ -34,11 +34,11 @@ This week combined two audit-simulation exercises applying the same evidence-bas
 
 ```
 week-14/
-|-- week14-readme.md                                     (this file -- weekly dashboard)
-|-- write-up-a7-and-aws-cloud-security.md                 (Methodology and step-by-step reasoning, both projects)
-|-- business-impact-a7-and-aws-cloud-security.md           (Risk classification and remediation direction, both projects)
-|-- evidence-matrix-a7-and-aws-cloud-security.md            (14-control and 6-service evidence tables, auditor testing approach)
-`-- resource-a7-and-aws-cloud-security.md                  (Reference library and frameworks)
+|-- 01-README.md                                     (this file -- weekly dashboard)
+|-- 02-write-up-a7-and-aws-cloud-security.md                 (Methodology and step-by-step reasoning, both projects)
+|-- 03-business-impact-a7-and-aws-cloud-security.md           (Risk classification and remediation direction, both projects)
+|-- 04-evidence-matrix-a7-and-aws-cloud-security.md            (14-control and 6-service evidence tables, auditor testing approach)
+`-- 05-resource-a7-and-aws-cloud-security.md                  (Reference library and frameworks)
 ```
 
 ---
