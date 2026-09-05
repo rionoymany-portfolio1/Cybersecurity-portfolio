@@ -59,16 +59,16 @@ week-14/
 
 ## Links to Sub-Modules
 
-### [Technical Write-Up: Annex A.7 and AWS Cloud Security](write-up-a7-and-aws-cloud-security.md)
+### [Technical Write-Up: Annex A.7 and AWS Cloud Security](02-write-up-a7-and-aws-cloud-security.md)
 Full methodology and step-by-step reasoning for both projects. Covers the three evidence types and four evidence quality attributes applied across all 14 A.7 controls, the CCTV retention and access workflow findings, the two-part GDPR visitor logbook analysis, the FinTrust Startup architecture and IaaS/PaaS/SaaS classification, the Shared Responsibility Model applied to each service, and the reasoning behind both cloud risk findings and their proposed remediation direction.
 
-### [Business Impact and Risk Analysis](business-impact-a7-and-aws-cloud-security.md)
+### [Business Impact and Risk Analysis](03-business-impact-a7-and-aws-cloud-security.md)
 Risk classification, severity, and proposed remediation direction for every finding identified in both projects, framed for business and regulatory impact rather than technical detail alone.
 
-### [Evidence Matrix: Annex A.7 and AWS Cloud Security](evidence-matrix-a7-and-aws-cloud-security.md)
+### [Evidence Matrix: Annex A.7 and AWS Cloud Security](04-evidence-matrix-a7-and-aws-cloud-security.md)
 Clean, control-by-control and service-by-service tables mapping Design, Operating, and Effectiveness evidence for all 14 Annex A.7 controls and all six referenced AWS services, plus the full Interview / Document Review / Observation / Sampling auditor testing matrix with priority focus on S3, RDS, and WorkSpaces.
 
-### [Resource and Reference Library](resource-a7-and-aws-cloud-security.md)
+### [Resource and Reference Library](05-resource-a7-and-aws-cloud-security.md)
 Reference materials, regulatory citations, and frameworks used to build both simulations.
 
 ---
