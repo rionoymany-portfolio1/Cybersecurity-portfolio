@@ -40,7 +40,7 @@ week-15/
 |-- 01-README.md                                        (this file -- weekly dashboard)
 |-- 02-write-up-a8-and-aws-cloud-risk.md                (Methodology and step-by-step reasoning, all three analyses)
 |-- 03-business-impact-a8-and-aws-cloud-risk.md         (Risk classification and remediation direction, all findings)
-`-- 04-resource-a8-and-aws-cloud-risk.md                (Reference library, key lessons, and study backlog)
+|-- 04-resource-a8-and-aws-cloud-risk.md                (Reference library, key lessons, and study backlog)
 ```
 
 ---
