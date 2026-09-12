@@ -1,7 +1,7 @@
 # Business Impact and Risk Analysis: ISO/IEC 27001 Annex A.8 (A.8.1-A.8.20) and AWS Cloud Risk Assessment -- NovaStream SaaS
 
 > **Scope:** Business impact, risk classification, threat modeling, and proposed remediation direction for findings identified across Annex A.8 controls A.8.1-A.8.20 and the AWS cloud risk assessment, all mapped to the simulated organization NovaStream SaaS
-> **Companion Files:** [Technical Write-Up](write-up-a8-and-aws-cloud-risk.md) -- [Resources and Reference Library](resource-a8-and-aws-cloud-risk.md)
+> **Companion Files:** [Technical Write-Up](02-write-up-a8-and-aws-cloud-risk.md) -- [Resources and Reference Library](04-resource-a8-and-aws-cloud-risk.md)
 
 ---
 
@@ -192,4 +192,4 @@ There is also a downstream credibility dimension: if NovaStream's incident timel
 
 ---
 
-*Return to: [Week 15 README](week15-readme.md)*
+*Return to: [README](01-README.md)*
