@@ -37,10 +37,10 @@ The AWS Cloud Risk Assessment closed the entry by mapping NovaStream's actual AW
 
 ```
 week-15/
-|-- week15-readme.md                              (this file -- weekly dashboard)
-|-- write-up-a8-and-aws-cloud-risk.md               (Methodology and step-by-step reasoning, all three analyses)
-|-- business-impact-a8-and-aws-cloud-risk.md         (Risk classification and remediation direction, all findings)
-`-- resource-a8-and-aws-cloud-risk.md                (Reference library, key lessons, and study backlog)
+|-- 01-README.md                                        (this file -- weekly dashboard)
+|-- 02-write-up-a8-and-aws-cloud-risk.md                (Methodology and step-by-step reasoning, all three analyses)
+|-- 03-business-impact-a8-and-aws-cloud-risk.md         (Risk classification and remediation direction, all findings)
+`-- 04-resource-a8-and-aws-cloud-risk.md                (Reference library, key lessons, and study backlog)
 ```
 
 ---
@@ -62,13 +62,13 @@ week-15/
 
 ## Links to Sub-Modules
 
-### [Technical Write-Up: Annex A.8 (A.8.1-A.8.20) and AWS Cloud Risk Assessment](write-up-a8-and-aws-cloud-risk.md)
+### [Technical Write-Up: Annex A.8 (A.8.1-A.8.20) and AWS Cloud Risk Assessment](02-write-up-a8-and-aws-cloud-risk.md)
 Full methodology and step-by-step reasoning across all three analyses. Covers the four-tier evidence taxonomy, technical domain mapping for all 20 controls, the branch protection and MDM encryption findings (A.8.4, A.8.1), the backup key rotation and NTP drift findings (A.8.13, A.8.17), the AWS Shared Responsibility Model applied to NovaStream's EC2/S3/RDS/Lambda footprint, and the four AWS cloud risk findings with their connection back to the Annex A.8 control set.
 
-### [Business Impact and Risk Analysis](business-impact-a8-and-aws-cloud-risk.md)
+### [Business Impact and Risk Analysis](03-business-impact-a8-and-aws-cloud-risk.md)
 Risk classification, severity, threat scenario framing, and proposed remediation direction for every finding identified across all three analyses, framed for business impact and startup-appropriate prioritization.
 
-### [Resources and Reference Library](resource-a8-and-aws-cloud-risk.md)
+### [Resources and Reference Library](04-resource-a8-and-aws-cloud-risk.md)
 Reference materials, framework citations, a consolidated summary of key lessons learned, and the study backlog identifying next steps (A.8.21-A.8.34 and related technical deep-dives).
 
 ---
