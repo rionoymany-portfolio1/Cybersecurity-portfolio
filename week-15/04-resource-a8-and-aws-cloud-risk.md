@@ -1,7 +1,7 @@
 # Resources: ISO/IEC 27001 Annex A.8 (A.8.1-A.8.20) and AWS Cloud Risk Assessment
 
 > **Scope:** Reference materials, frameworks, key lessons, and study backlog for the Annex A.8 Technological Controls analysis and the AWS Cloud Risk Assessment, both mapped to the simulated organization NovaStream SaaS
-> **Companion Files:** [Technical Write-Up](01-write-up-a8-and-aws-cloud-risk.md) -- [Business Impact and Risk Analysis](03-business-impact-a8-and-aws-cloud-risk.md)
+> **Companion Files:** [Technical Write-Up](02-write-up-a8-and-aws-cloud-risk.md) -- [Business Impact and Risk Analysis](03-business-impact-a8-and-aws-cloud-risk.md)
 
 ---
 
