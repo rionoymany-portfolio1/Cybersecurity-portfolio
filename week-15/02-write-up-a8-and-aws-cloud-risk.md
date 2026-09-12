@@ -3,7 +3,7 @@
 > **Scope:** ISO/IEC 27001:2022 Annex A.8 Technological Controls A.8.1-A.8.20 (20 of 34 total A.8 controls), plus an AWS Shared Responsibility Model and cloud risk assessment
 > **Simulated Organization:** NovaStream SaaS -- a high-growth B2B software startup, used consistently as the case study subject across all three analyses in this entry
 > **Method:** Control-by-control technical domain mapping, evidence taxonomy construction, structured threat scenario modeling, and auditor testing methodology
-> **Companion Files:** [Business Impact and Risk Analysis](business-impact-a8-and-aws-cloud-risk.md) -- [Resources and Reference Library](resource-a8-and-aws-cloud-risk.md)
+> **Companion Files:** [Business Impact and Risk Analysis](03-business-impact-a8-and-aws-cloud-risk.md) -- [Resources and Reference Library](04-resource-a8-and-aws-cloud-risk.md)
 
 ---
 
@@ -217,4 +217,4 @@ Applying the risk register above directly to NovaStream's simulated AWS environm
 
 ---
 
-*Return to: [Week 15 README](week15-readme.md)*
+*Return to: [README](01-README.md)*
