@@ -1,7 +1,7 @@
 # Business Impact and Risk Analysis: Statement of Applicability, Cloud Misconfiguration, and Supplier Governance -- PayFast
 
 > **Scope:** Business impact, cost-benefit justification, supplier governance, and multi-cloud ownership for findings identified across the SoA simulation and the AWS/Azure comparative assessment, all mapped to the simulated organization PayFast
-> **Companion Files:** [Technical Write-Up](01-technical-write-up-a8-soa-aws-azure.md) -- [Resources and Evidence Matrix](04-resource-a8-soa-aws-azure.md)
+> **Companion Files:** [Technical Write-Up](02-technical-write-up-a8-soa-aws-azure.md) -- [Resources and Evidence Matrix](04-resource-a8-soa-aws-azure.md)
 
 ---
 
