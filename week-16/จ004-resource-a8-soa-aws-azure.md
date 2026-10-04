@@ -1,7 +1,7 @@
 # Resources and Evidence Matrix: ISO/IEC 27001 Annex A.8, SoA Simulation, and AWS/Azure Cloud Audit Readiness
 
 > **Scope:** Portfolio-wide evidence mapping across all analyzed Annex A controls to date, the Provider Assurance vs. Customer-side evidence distinction, the Design/Operating/Operating Effectiveness evidence taxonomy, and the reference library supporting this entry
-> **Companion Files:** [Technical Write-Up](technical-write-up-a8-soa-aws-azure.md) -- [Business Impact and Risk Analysis](business-impact-a8-soa-aws-azure.md)
+> **Companion Files:** [Technical Write-Up](02-technical-write-up-a8-soa-aws-azure.md) -- [Business Impact and Risk Analysis](03-business-impact-a8-soa-aws-azure.md)
 
 ---
 
@@ -145,4 +145,4 @@ A single sample of recent deployments showing proper approval records (Operating
 
 ---
 
-*Return to: [Week 16 README](week16-readme.md)*
+*Return to: [README](01-README.md)*
