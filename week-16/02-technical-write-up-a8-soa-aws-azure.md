@@ -2,7 +2,7 @@
 
 > **Scope:** Annex A.8 Technological Controls A.8.21-A.8.34 (14 of 34 controls), a Statement of Applicability (SoA) decision simulation spanning all four Annex A themes, and a comparative AWS/Azure shared responsibility and risk assessment
 > **Simulated Organization:** PayFast -- a 20-person hybrid/remote Fintech startup, 100% AWS-hosted, processing PCI-DSS-sensitive cardholder data
-> **Companion Files:** [Business Impact and Risk Analysis](business-impact-a8-soa-aws-azure.md) -- [Resources and Evidence Matrix](resource-a8-soa-aws-azure.md)
+> **Companion Files:** [Business Impact and Risk Analysis](03-business-impact-a8-soa-aws-azure.md) -- [Resources and Evidence Matrix](04-resource-a8-soa-aws-azure.md)
 
 ---
 
@@ -203,7 +203,7 @@ Four misconfiguration categories recur across both platforms, because they stem 
 | **Customer-side audit trail evidence** | CloudTrail logs | Azure Activity Log, Azure Monitor diagnostic logs |
 | **Change management evidence** | Change ticket records, infrastructure-as-code commit history | Change ticket records, infrastructure-as-code commit history |
 
-**Why provider assurance reports cannot substitute for customer-side evidence, on either platform:** an AWS Artifact SOC 2 report attests to AWS's own control environment; an Azure STP SOC 2 report attests to Microsoft's. Neither report contains any information about whether a specific customer's IAM policies are least-privilege, whether a specific customer's storage containers are public, or whether a specific customer's audit logs are actually being reviewed -- these are customer-side configuration states that exist entirely outside the scope of what a provider's own third-party audit evaluates. This is the direct justification for the Design/Operating/Operating Effectiveness evidence taxonomy applied to this evidence set in the companion [Resources and Evidence Matrix](resource-a8-soa-aws-azure.md) file: provider assurance reports establish that the underlying platform *can* be operated securely; customer-side evidence is what demonstrates the organization actually *is* operating it securely.
+**Why provider assurance reports cannot substitute for customer-side evidence, on either platform:** an AWS Artifact SOC 2 report attests to AWS's own control environment; an Azure STP SOC 2 report attests to Microsoft's. Neither report contains any information about whether a specific customer's IAM policies are least-privilege, whether a specific customer's storage containers are public, or whether a specific customer's audit logs are actually being reviewed -- these are customer-side configuration states that exist entirely outside the scope of what a provider's own third-party audit evaluates. This is the direct justification for the Design/Operating/Operating Effectiveness evidence taxonomy applied to this evidence set in the companion [Resources and Evidence Matrix](04-resource-a8-soa-aws-azure.md) file: provider assurance reports establish that the underlying platform *can* be operated securely; customer-side evidence is what demonstrates the organization actually *is* operating it securely.
 
 ## 3.5 Section Takeaways: AWS and Azure Comparative Analysis
 
@@ -224,4 +224,4 @@ Four misconfiguration categories recur across both platforms, because they stem 
 
 ---
 
-*Return to: [Week 16 README](week16-readme.md)*
+*Return to: [README](01-README.md)*
