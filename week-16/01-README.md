@@ -19,17 +19,17 @@ The entry closes with a **comparative AWS and Microsoft Azure shared responsibil
 
 ## Table of Contents
 
-- [Key Skills and Domains Mastered](#key-skills-and-domains-mastered)
+- [Key Skills Demonstrated](#key-skills-demonstrated)
 - [Resume Bullet Points](#resume-bullet-points)
 - [Repository Structure](#repository-structure)
 - [Key Metrics and Outcomes](#key-metrics-and-outcomes)
-- [Technical Write-Up](technical-write-up-a8-soa-aws-azure.md) -- A.8.21-A.8.34 analysis, SoA simulation, AWS/Azure comparison
-- [Business Impact and Risk Analysis](business-impact-a8-soa-aws-azure.md) -- Cost-benefit justification, misconfiguration impact, supplier governance, RACI
-- [Resources and Evidence Matrix](resource-a8-soa-aws-azure.md) -- Consolidated evidence mapping, provider vs. customer evidence, reference library
+- [Technical Write-Up](02-technical-write-up-a8-soa-aws-azure.md) -- A.8.21-A.8.34 analysis, SoA simulation, AWS/Azure comparison
+- [Business Impact and Risk Analysis](03-business-impact-a8-soa-aws-azure.md) -- Cost-benefit justification, misconfiguration impact, supplier governance, RACI
+- [Resources and Evidence Matrix](04-resource-a8-soa-aws-azure.md) -- Consolidated evidence mapping, provider vs. customer evidence, reference library
 
 ---
 
-## Key Skills and Domains Mastered
+##Key Skills Demonstrated
 
 | Domain | Specific Capability Demonstrated |
 |---|---|
@@ -73,10 +73,10 @@ The entry closes with a **comparative AWS and Microsoft Azure shared responsibil
 
 ```
 week-16/
-|-- week16-readme.md                                  (this file -- main portfolio index)
-|-- technical-write-up-a8-soa-aws-azure.md              (A.8.21-A.8.34, SoA simulation, AWS/Azure comparison)
-|-- business-impact-a8-soa-aws-azure.md                  (Cost-benefit, misconfiguration impact, supplier governance, RACI)
-`-- resource-a8-soa-aws-azure.md                        (Evidence matrix, provider vs. customer evidence, reference library)
+|-- 01-readme.md                                  (this file -- main portfolio index)
+|-- 02-technical-write-up-a8-soa-aws-azure.md              (A.8.21-A.8.34, SoA simulation, AWS/Azure comparison)
+|-- 03-business-impact-a8-soa-aws-azure.md                  (Cost-benefit, misconfiguration impact, supplier governance, RACI)
+`-- 04-resource-a8-soa-aws-azure.md                        (Evidence matrix, provider vs. customer evidence, reference library)
 ```
 
 ---
