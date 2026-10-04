@@ -97,7 +97,7 @@ Both roles are being pursued simultaneously. The portfolio is structured to be r
 - NVD (National Vulnerability Database) — https://nvd.nist.gov/
 - CWE (Common Weakness Enumeration) — https://cwe.mitre.org/
 - PDPA Thailand — https://www.pdpc.or.th/
-- GDPR EUROPE - https://gdpr.eu/
+- GDPR Europe - https://gdpr.eu/
 - NIST Cybersecurity Framework — https://www.nist.gov/cyberframework
 - PortSwigger Web Security Academy — https://portswigger.net/web-security
 - TryHackMe — https://tryhackme.com/
