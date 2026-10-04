@@ -73,9 +73,9 @@ The entry closes with a **comparative AWS and Microsoft Azure shared responsibil
 
 ```
 week-16/
-|-- 01-readme.md                                  (this file -- main portfolio index)
+|-- 01-readme.md                                           (this file -- main portfolio index)
 |-- 02-technical-write-up-a8-soa-aws-azure.md              (A.8.21-A.8.34, SoA simulation, AWS/Azure comparison)
-|-- 03-business-impact-a8-soa-aws-azure.md                  (Cost-benefit, misconfiguration impact, supplier governance, RACI)
+|-- 03-business-impact-a8-soa-aws-azure.md                 (Cost-benefit, misconfiguration impact, supplier governance, RACI)
 `-- 04-resource-a8-soa-aws-azure.md                        (Evidence matrix, provider vs. customer evidence, reference library)
 ```
 
