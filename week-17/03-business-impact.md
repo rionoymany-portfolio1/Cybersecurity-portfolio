@@ -4,7 +4,7 @@
 > **Scenario status:** OrbitDesk is entirely fictional. The gaps below are hypothetical, were not observed in any real system, and every recommendation is a **proposed action**, not completed work.
 > **Method:** Qualitative analysis only. No numerical risk scores, likelihood percentages, or financial figures are used, because no scoring methodology was defined for this exercise.
 > **Labels:** **Scenario assumption** (fictional detail) -- **Proposed action** (not performed) -- **Study fact** (summarized from the sources in [RESOURCES.md](04-resource.md))
-> **Companion files:** [README.md](01-README.md) -- [WRITE-UP.md](02-write-up.md) -- [RESOURCES.md](03-resource.md)
+> **Companion files:** [README.md](01-README.md) -- [WRITE-UP.md](02-write-up.md) -- [RESOURCES.md](04-resource.md)
 
 ---
 
