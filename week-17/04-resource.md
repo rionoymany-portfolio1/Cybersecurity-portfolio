@@ -3,7 +3,7 @@
 > **Purpose:** The sources that support the claims in this repository, with official URLs and the result of a status check
 > **Status checks:** Original review on 18 October 2026; selected RFC and source-status entries rechecked on 23 October 2026
 > **Abbreviations:** NIST = National Institute of Standards and Technology; CSF = Cybersecurity Framework; ISO = International Organization for Standardization; IEC = International Electrotechnical Commission; IETF = Internet Engineering Task Force; RFC = Request for Comments; BCP = Best Current Practice; STD = Internet Standard; OWASP = Open Worldwide Application Security Project; HTTP = Hypertext Transfer Protocol; TLS = Transport Layer Security; HTTPS = HTTP over TLS
-> **Companion files:** [README.md](README.md) -- [WRITE-UP.md](WRITE-UP.md) -- [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md)
+> **Companion files:** [README.md](01-README.md) -- [WRITE-UP.md](02-write-up.md) -- [BUSINESS-IMPACT.md](03-business-impact.md)
 
 ---
 
@@ -83,4 +83,4 @@
 
 ---
 
-*Return to: [README.md](README.md)*
+*Return to: [README.md](01-README.md)*
