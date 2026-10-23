@@ -41,17 +41,6 @@ This portfolio covers two complementary tracks, roughly in a **70% GRC / 30% tec
 
 ---
 
-## How the Content Is Structured
-
-Each week's folder is self-contained. The content structure adapts to the topic:
-
-**For technical weeks**, each write-up follows a six-angle framework: Vulnerability → Exploitation → Business Impact → Technical Fix → Policy Fix → Detection Rule. Supporting files cover the lab walkthrough, CVE case studies, bypass technique reference, and business impact analysis with cited sources.
-
-**For GRC weeks**, content uses a different framework suited to compliance work: Requirement → Interpretation → Organizational Application → Evidence/Artifacts → Common Gaps → Related Controls. Deliverables include annotated clause analysis, simulated risk registers, audit findings, and corrective action plans.
-
-File names describe their content. There is no rigid template imposing the same six files on every week regardless of what that week's material actually needs.
-
----
 
 ## What "Blended" Actually Means
 
