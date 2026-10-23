@@ -3,8 +3,8 @@
 > **Scope:** Business impact analysis supporting Governance, Risk, and Compliance (GRC) review, using one fictional startup
 > **Scenario status:** OrbitDesk is entirely fictional. The gaps below are hypothetical, were not observed in any real system, and every recommendation is a **proposed action**, not completed work.
 > **Method:** Qualitative analysis only. No numerical risk scores, likelihood percentages, or financial figures are used, because no scoring methodology was defined for this exercise.
-> **Labels:** **Scenario assumption** (fictional detail) -- **Proposed action** (not performed) -- **Study fact** (summarized from the sources in [RESOURCES.md](RESOURCES.md))
-> **Companion files:** [README.md](README.md) -- [WRITE-UP.md](WRITE-UP.md) -- [RESOURCES.md](RESOURCES.md)
+> **Labels:** **Scenario assumption** (fictional detail) -- **Proposed action** (not performed) -- **Study fact** (summarized from the sources in [RESOURCES.md](04-RESOURCES.md))
+> **Companion files:** [README.md](01-README.md) -- [WRITE-UP.md](02-WRITE-UP.md) -- [RESOURCES.md](03-RESOURCES.md)
 
 ---
 
@@ -50,7 +50,7 @@
 | **R7 (Respond)** No documented incident response plan or decision authority | Incident handling and communication | Inconsistent containment and evidence handling | Slower response; confusion over who informs customers and when; possible obligations unclear (A8) | RS.MA, GV.RR: is there a plan with roles, contacts, and decision authority? | **Action:** write a one-page plan with roles and contacts; hold a short tabletop discussion.<br>**Evidence:** the plan, contact list, tabletop notes |
 | **R8 (Recover)** Database backups are configured, but no restore has been tested | Production data and service availability | Backups may be unusable or incomplete when needed | Extended downtime or data loss after an incident or failure | RC.RP: has recovery been exercised, and are recovery priorities defined? | **Action:** schedule a restore test into a separate environment and record the time and result.<br>**Evidence:** restore test record, backup configuration |
 
-*The CSF Category mapping is illustrative and chosen for study purposes. Confirm Category wording against NIST CSWP 29 ([RESOURCES.md](RESOURCES.md)).*
+*The CSF Category mapping is illustrative and chosen for study purposes. Confirm Category wording against NIST CSWP 29 ([RESOURCES.md](04-RESOURCES.md)).*
 
 ---
 
@@ -117,8 +117,8 @@ The sequence is a proposed order of work, **not a risk score**.
 
 ## References
 
-Sources, official URLs, and status checks are listed in [RESOURCES.md](RESOURCES.md).
+Sources, official URLs, and status checks are listed in [RESOURCES.md](04-RESOURCES.md).
 
 ---
 
-*Return to: [README.md](README.md)*
+*Return to: [README.md](01-README.md)*
