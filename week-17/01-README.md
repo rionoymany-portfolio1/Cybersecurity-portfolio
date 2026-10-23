@@ -43,7 +43,7 @@ Both threads were connected through OrbitDesk, a fictional startup used to pract
 | **README.md** | This page: summary, study overview, takeaways, scope |
 | [WRITE-UP.md](02-write-up.md) | Learning narrative for Monday, Wednesday, and Friday, with tables for Functions, Categories, methods, status codes, and TLS |
 | [BUSINESS-IMPACT.md](03-business-impact.md) | Fictional scenario and assumptions, risk mapping table, impact areas, governance roles, proposed first actions, and the Concept-to-GRC table |
-| [RESOURCES.md](03-resource.md) | Source index with official URLs, supporting concepts, and the result of a status check |
+| [RESOURCES.md](04-resource.md) | Source index with official URLs, supporting concepts, and the result of a status check |
 
 ---
 
