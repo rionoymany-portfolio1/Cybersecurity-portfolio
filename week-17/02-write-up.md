@@ -3,8 +3,8 @@
 > **Context:** Written for entry-level Governance, Risk, and Compliance (GRC) and cybersecurity consulting readers
 > **Scope:** Monday (National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) 2.0 overview, a comparison with ISO/IEC 27001:2022 from the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC), and scenario practice), Wednesday (the Govern Function), Friday (Hypertext Transfer Protocol (HTTP), Transport Layer Security (TLS), HTTP over TLS (HTTPS), and session cookies)
 > **Method:** Conceptual study and written summaries, using referenced sources to support key explanations and connecting each concept to a governance question
-> **Scenario:** OrbitDesk, a fictional Software as a Service (SaaS) startup -- assumptions are listed in [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md)
-> **Companion files:** [README.md](README.md) -- [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md) -- [RESOURCES.md](RESOURCES.md)
+> **Scenario:** OrbitDesk, a fictional Software as a Service (SaaS) startup -- assumptions are listed in [BUSINESS-IMPACT.md](03-BUSINESS-IMPACT.md)
+> **Companion files:** [README.md](01-README.md) -- [BUSINESS-IMPACT.md](03-BUSINESS-IMPACT.md) -- [RESOURCES.md](04-RESOURCES.md)
 
 ---
 
@@ -82,7 +82,7 @@ All six Functions are connected; lessons learned can inform improvement.
 
 ### 1.4 Fictional Scenario and Initial Analysis Exercise
 
-OrbitDesk is a fictional 12-person business-to-business (B2B) help-desk SaaS startup. It exists only to practice describing gaps and decisions. Its assumptions (A1 to A8) and eight illustrative gaps (R1 to R8) are in [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md#1-scenario-and-assumptions).
+OrbitDesk is a fictional 12-person business-to-business (B2B) help-desk SaaS startup. It exists only to practice describing gaps and decisions. Its assumptions (A1 to A8) and eight illustrative gaps (R1 to R8) are in [BUSINESS-IMPACT.md](03-BUSINESS-IMPACT.md).
 
 > **Label:** The scenario was written for this record. It is **not** a transcript of the original Monday exercise and does not describe any real organization.
 
@@ -286,14 +286,14 @@ HTTP is stateless, so after a user logs in, a web application commonly issues a 
 - **Ownership must be named.** Certificate renewal, session settings, and error handling need accountable owners (GV.RR).
 - **Signals are not verdicts.** Status codes, response headers, and logs give evidence to ask about; interpreting them needs context, and any vulnerability claim needs appropriate technical testing beyond this study.
 
-The detailed Concept-to-GRC mapping is in [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md#6-concept-to-grc-mapping-table).
+The detailed Concept-to-GRC mapping is in [BUSINESS-IMPACT.md](03-BUSINESS-IMPACT.md).
 
 ---
 
 ## References
 
-Sources, official URLs, and status checks are listed in [RESOURCES.md](RESOURCES.md).
+Sources, official URLs, and status checks are listed in [RESOURCES.md](04-RESOURCES.md).
 
 ---
 
-*Return to: [README.md](README.md)*
+*Return to: [README.md](01-README.md)*
