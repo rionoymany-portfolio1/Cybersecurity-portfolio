@@ -101,4 +101,3 @@ Both roles are being pursued simultaneously. The portfolio is structured to be r
 - NIST Cybersecurity Framework — https://www.nist.gov/cyberframework
 - PortSwigger Web Security Academy — https://portswigger.net/web-security
 - TryHackMe — https://tryhackme.com/
-- 
