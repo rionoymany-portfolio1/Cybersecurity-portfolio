@@ -3,7 +3,7 @@
 > **Scope:** Business impact and risk reasoning for Governance, Risk, and Compliance (GRC) review, using one fictional organization and the Domain Name System (DNS) as the focus
 > **Scenario status:** TrailMint is entirely fictional. The gaps are hypothetical, were not observed in any real system, and every recommendation is a **proposed action that has not been performed**.
 > **Method:** Qualitative prioritization against defined criteria (Section 2). No numerical risk scores, likelihood percentages, financial losses, or corrective-action service levels are used.
-> **Companion files:** [README.md](README.md) -- [WRITE-UP.md](WRITE-UP.md) -- [RESOURCES.md](RESOURCES.md)
+> **Companion files:** [README.md](01-README.md) -- [WRITE-UP.md](02-write-up.md) -- [RESOURCES.md](04-resources.md)
 
 ---
 
@@ -157,8 +157,8 @@ A fictional, proposed message about the `promo` alias (R6), structured the way a
 
 ## References
 
-Sources, official URLs, and verification notes are in [RESOURCES.md](RESOURCES.md). Concepts and definitions are in [WRITE-UP.md](WRITE-UP.md).
+Sources, official URLs, and verification notes are in [RESOURCES.md](04-resources.md). Concepts and definitions are in [WRITE-UP.md](02-write-up.md).
 
 ---
 
-*Return to: [README.md](README.md)*
+*Return to: [README.md](01-README.md)*
