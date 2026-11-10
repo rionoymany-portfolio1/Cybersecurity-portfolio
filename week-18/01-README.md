@@ -30,9 +30,9 @@ Friday applied those ideas to DNS. The study covered resolution pathways, cachin
 
 | Day | Topic | What was studied | Read more |
 |---|---|---|---|
-| **Monday** | CSF 2.0 Identify | ID.AM and ID.RA; asset categories and inventory purpose; ownership and ISO/IEC 27001 concepts; vulnerability assessment versus risk assessment | [WRITE-UP: Part A](WRITE-UP.md#part-a-nist-csf-20-identify-monday) |
-| **Wednesday** | CSF 2.0 Protect | PR.AA, PR.AT, PR.DS, PR.PS, and PR.IR; the identity lifecycle; the path from requirement to review | [WRITE-UP: Part B](WRITE-UP.md#part-b-nist-csf-20-protect-wednesday) |
-| **Friday** | DNS security and GRC mapping | Resolution and caching; five common record types covering addresses, aliases, mail routing, and text data; five threats; security mechanisms; evidence mapping | [Part C](WRITE-UP.md#part-c-dns-fundamentals-friday), [Part E](WRITE-UP.md#part-e-dns-threat-analysis-friday), [Part F](WRITE-UP.md#part-f-dns-security-controls-friday), [Part G](WRITE-UP.md#part-g-evidence-mapping) |
+| **Monday** | CSF 2.0 Identify | ID.AM and ID.RA; asset categories and inventory purpose; ownership and ISO/IEC 27001 concepts; vulnerability assessment versus risk assessment | [WRITE-UP: Part A](02-write-up.md) |
+| **Wednesday** | CSF 2.0 Protect | PR.AA, PR.AT, PR.DS, PR.PS, and PR.IR; the identity lifecycle; the path from requirement to review | [WRITE-UP: Part B](02-write-up.md) |
+| **Friday** | DNS security and GRC mapping | Resolution and caching; five common record types covering addresses, aliases, mail routing, and text data; five threats; security mechanisms; evidence mapping | [Part C](02-write-up.md), [Part E](02-write-up.md), [Part F](02-write-up.md), [Part G](02-write-up.md) |
 
 ---
 
@@ -41,9 +41,9 @@ Friday applied those ideas to DNS. The study covered resolution pathways, cachin
 | File | Contents |
 |---|---|
 | **README.md** | This page: summary, overview, frameworks, mechanisms, competencies, scope |
-| [WRITE-UP.md](WRITE-UP.md) | The principal learning document: Parts A to H covering Identify, Protect, DNS fundamentals, record types, threats, controls, evidence mapping, and three fictional exercises |
-| [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md) | Fictional scenario and assumptions, a [prioritization framework](BUSINESS-IMPACT.md#2-risk-prioritization-framework), a [risk mapping](BUSINESS-IMPACT.md#3-risk-mapping) of nine risks, governance roles, and an [executive communication example](BUSINESS-IMPACT.md#7-executive-communication-example) |
-| [RESOURCES.md](RESOURCES.md) | Source index with verification notes, glossary, interview-preparation questions, and optional further practice |
+| [WRITE-UP.md](02-write-up.md) | The principal learning document: Parts A to H covering Identify, Protect, DNS fundamentals, record types, threats, controls, evidence mapping, and three fictional exercises |
+| [BUSINESS-IMPACT.md](03-business-impact.md) | Fictional scenario and assumptions, a [prioritization framework](03-business-impact.md), a [risk mapping](03-business-impact.md) of nine risks, governance roles, and an [executive communication example](03-business-impact.md) |
+| [RESOURCES.md](04-resources.md) | Source index with verification notes, glossary, interview-preparation questions, and optional further practice |
 
 ---
 
@@ -79,12 +79,12 @@ These were studied conceptually. No mechanism was configured or tested.
 
 | Competency | Where it is shown |
 |---|---|
-| **Explaining technical concepts in business terms** | [WRITE-UP: Parts C to F](WRITE-UP.md#part-c-dns-fundamentals-friday); [BUSINESS-IMPACT: executive example](BUSINESS-IMPACT.md#7-executive-communication-example) |
-| **Risk-based reasoning with transparent criteria** | [BUSINESS-IMPACT: Sections 2 to 4](BUSINESS-IMPACT.md#2-risk-prioritization-framework) |
-| **Governance awareness** (ownership, lifecycle, suppliers) | [WRITE-UP: Part B](WRITE-UP.md#part-b-nist-csf-20-protect-wednesday); [BUSINESS-IMPACT: Section 6](BUSINESS-IMPACT.md#6-governance-responsibilities) |
-| **Evidence literacy** (what to request and what it does not show) | [WRITE-UP: Part G](WRITE-UP.md#part-g-evidence-mapping) |
-| **Accuracy about control limits** | [WRITE-UP: Part F](WRITE-UP.md#part-f-dns-security-controls-friday) |
-| **Source checking and honesty about uncertainty** | [RESOURCES.md](RESOURCES.md) |
+| **Explaining technical concepts in business terms** | [WRITE-UP: Parts C to F](02-write-up.md); [BUSINESS-IMPACT: executive example](03-business-impact.md) |
+| **Risk-based reasoning with transparent criteria** | [BUSINESS-IMPACT: Sections 2 to 4](03-business-impact.md) |
+| **Governance awareness** (ownership, lifecycle, suppliers) | [WRITE-UP: Part B](02-write-up.md); [BUSINESS-IMPACT: Section 6](03-business-impact.md) |
+| **Evidence literacy** (what to request and what it does not show) | [WRITE-UP: Part G](02-write-up.md) |
+| **Accuracy about control limits** | [WRITE-UP: Part F](02-write-up.md) |
+| **Source checking and honesty about uncertainty** | [RESOURCES.md](04-resources.md) |
 
 ---
 
@@ -107,7 +107,7 @@ These were studied conceptually. No mechanism was configured or tested.
 - **No audit or live findings.** No audit, formal assessment, verified vulnerability, real incident, or completed corrective action is claimed.
 - **Mappings are illustrative.** NIST and ISO mappings are reasoned, not established by an official source.
 - **No legal conclusions.** Any regulatory, contractual, or service-level obligation mentioned is potential and would require verification.
-- **Source verification.** Source statuses and their limits are in [RESOURCES.md](RESOURCES.md). The paid ISO standards were not accessed.
+- **Source verification.** Source statuses and their limits are in [RESOURCES.md](04-resources.md). The paid ISO standards were not accessed.
 
 ---
 
