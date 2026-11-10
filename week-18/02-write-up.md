@@ -2,8 +2,8 @@
 
 > **Scope:** Monday (National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) 2.0 Identify), Wednesday (CSF 2.0 Protect), Friday (Domain Name System (DNS) security and Governance, Risk, and Compliance (GRC) mapping)
 > **Method:** Studying the topics listed for each day, summarizing them in original wording, and connecting them to governance questions and evidence. No tools were run and no real environment was assessed.
-> **Scenario:** TrailMint, a fictional online retailer. Assumptions A1 to A9 are in [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md#1-scenario-and-assumptions).
-> **Companion files:** [README.md](README.md) -- [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md) -- [RESOURCES.md](RESOURCES.md)
+> **Scenario:** TrailMint, a fictional online retailer. Assumptions A1 to A9 are in [BUSINESS-IMPACT.md](03-business-impact.md).
+> **Companion files:** [README.md](01-README.md) -- [BUSINESS-IMPACT.md](03-business-impact.md) -- [RESOURCES.md](04-resources.md)
 
 ---
 
@@ -27,7 +27,7 @@
 | Performed a vulnerability assessment, risk assessment, or audit of a real environment | **Not done** |
 | Studied every Subcategory | **Not done** (a few Subcategory outcomes are cited as examples only) |
 
-**Labels used:** **Study fact** (summarized from the sources in [RESOURCES.md](RESOURCES.md)), **Scenario assumption** (fictional), and **Proposed action** (not performed).
+**Labels used:** **Study fact** (summarized from the sources in [RESOURCES.md](04-resources.md)), **Scenario assumption** (fictional), and **Proposed action** (not performed).
 
 ---
 
@@ -441,8 +441,8 @@ An analyst would not conclude that the risk is adequately addressed until the ev
 
 ## References
 
-Sources, official URLs, and verification notes are in [RESOURCES.md](RESOURCES.md).
+Sources, official URLs, and verification notes are in [RESOURCES.md](04-resources.md).
 
 ---
 
-*Return to: [README.md](README.md)*
+*Return to: [README.md](01-README.md)*
