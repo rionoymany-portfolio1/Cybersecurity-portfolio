@@ -3,7 +3,7 @@
 > **Purpose:** Source index with official URLs and verification notes, a glossary, interview-preparation questions, and optional further practice
 > **Verification window:** 25 October to 1 November 2026, based on system timestamps at the start and end of the work. Individual checks were not date-stamped separately. This window describes the overall research period; it does not mean every source was independently re-verified on a specific date.
 > **Abbreviations:** NIST = National Institute of Standards and Technology; CSF = Cybersecurity Framework; ISO = International Organization for Standardization; IEC = International Electrotechnical Commission; IETF = Internet Engineering Task Force; RFC = Request for Comments; BCP = Best Current Practice; STD = Internet Standard; HTTP = Hypertext Transfer Protocol; TLS = Transport Layer Security; HTTPS = HTTP over TLS; DNS = Domain Name System; DNSSEC = DNS Security Extensions; DoT = DNS over TLS; DoH = DNS over HTTPS; EPP = Extensible Provisioning Protocol; TTL = Time to Live; MFA = multi-factor authentication; ICT = information and communication technology; GRC = Governance, Risk, and Compliance
-> **Companion files:** [README.md](README.md) -- [WRITE-UP.md](WRITE-UP.md) -- [BUSINESS-IMPACT.md](BUSINESS-IMPACT.md)
+> **Companion files:** [README.md](01-README.md) -- [WRITE-UP.md](02-write-up.md) -- [BUSINESS-IMPACT.md](03-business-impact.md)
 
 ---
 
@@ -174,4 +174,4 @@ The answer outlines below are study aids, not prescribed answers. They should be
 
 ---
 
-*Return to: [README.md](README.md)*
+*Return to: [README.md](01-README.md)*
